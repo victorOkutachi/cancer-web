@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cancer-web/static/css/main.b34ec249.css",
+    "main.js": "/cancer-web/static/js/main.98c50932.js",
+    "index.html": "/cancer-web/index.html",
+    "main.b34ec249.css.map": "/cancer-web/static/css/main.b34ec249.css.map",
+    "main.98c50932.js.map": "/cancer-web/static/js/main.98c50932.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34ec249.css",
+    "static/js/main.98c50932.js"
+  ]
+}
