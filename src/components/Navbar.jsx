@@ -30,7 +30,7 @@ const Navbar = () => {
         </ul>
      
         <div onClick={handleMenu} className='block md:hidden z-10'>
-             {menu ? <AiOutlineClose size={20} /> : <HiOutlineMenuAlt2 size={20}/>}     
+             {menu ? <AiOutlineClose color='white' size={20} /> : <HiOutlineMenuAlt2 size={20}/>}     
         </div>
         <div className={menu ? 'absolute left-0 top-0 w-full h-screen flex flex-col items-center justify-center bg-[#007f5f] ease-in-out duration-500 text-white' : 'fixed left-[-100%]'}>
         <img src='images/ccinlogo.png' className=' absolute top-5 left-10 h-10 cursor-pointer '/>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     <li className='py-2 text-xl font-medium'>Opportunities</li>
                     <li className='py-2 text-xl font-medium'>Mentorship Schemes</li>
                     <li className='py-2 text-xl font-medium'>Spotlight Nigerians</li>
-                    <li className='py-2 text-xl font-medium'>Blog</li>
+                    <li className='py-2 text-xl font-medium text-pink-400'>Donate</li>
                 </ul>
             </div>
     </div>
