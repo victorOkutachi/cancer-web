@@ -10,7 +10,7 @@ module.exports = {
       },
       colors: {
         'lightgreen-rgba': 'rgba(0, 127, 95, 0.9)',
-        'overlay-rgba': 'rgba(,0,0,0,0.5)',
+        'overlay-rgba': 'rgba(,0,0,0,0.7)',
       },
     },
   },
