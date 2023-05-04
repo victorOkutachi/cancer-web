@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         kanit: ['Kanit', 'sans-serif'],
+        'Delicious-Handrawn': ['Delicious Handrawn', 'cursive'],
+
       },
       colors: {
         'lightgreen-rgba': 'rgba(0, 127, 95, 0.9)',

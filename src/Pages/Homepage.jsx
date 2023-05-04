@@ -1,6 +1,5 @@
 import React from 'react'
 import Body from '../components/Body'
-import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Involvement from '../components/Involvement'

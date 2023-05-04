@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Involvement = () => {
   return (
@@ -9,8 +10,8 @@ const Involvement = () => {
             part of our Non Profit Organization and help to strengthen our operations
         </p>
     
-    <button className='text-white text-[14px] bg-[#008024] font-bold rounded-full hover:text-[#008024] border-[2px] border-[#008024] hover:bg-white hover:border-[#008024] py-[6px] w-[160px] flex items-center justify-center md:mx-0'>Partner With Us</button>
-
+    <button className='text-white text-[14px] bg-[#008024] font-bold rounded-full hover:text-[#008024] border-[2px] border-[#008024] hover:bg-white hover:border-[#008024] py-[6px] w-[160px] flex items-center justify-center md:mx-0'><Link to='/contact'>Partner With Us</Link></button>
+      
     </div>
   )
 }

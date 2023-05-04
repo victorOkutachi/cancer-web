@@ -2,16 +2,20 @@ import React from 'react'
 import {AiOutlineCopyright} from 'react-icons/ai'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiLinkedinFill} from 'react-icons/ri'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
+    <div id='container' className='flex flex-col'>
+        <Navbar/>
     <div className='w-full h-2/5 flex flex-col items-center'>
       
       <div className='w-full h-3/4 flex justify-center mx-auto mb-4 items-center p-4 sm:mt-32'>
       <form method='POST' action='https://getform.io/f/dec7bff2-8943-416f-8ce3-ebec9f6529eb' className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
-          <p className='text-2xl text-[#008024] md:text-4xl font-bold inline border-b-4 border-[#008024] '>Contact</p>
-          <p className='py-4 text-2xl'>Let's work together to build something great</p>
+          <p className='text-2xl text-[#008024] md:text-4xl font-Delicious-Handrawn font-bold inline border-b-4 border-[#008024] '>Contact</p>
+          <p className='py-4 font-kanit text-xl'>Let's work together to build something great</p>
         </div>
         <input className=' p-2  border-[1px] border-[#d3d3d3]' type="text" placeholder='Name' name='name'/>
         <input className='my-4 p-2 border-[1px] border-[#d3d3d3]' type="email" placeholder='Email' name='email'/>
@@ -20,6 +24,8 @@ const Contact = () => {
       </form>   
       </div>
       
+    </div>
+    <Footer/>
     </div>
     
   )

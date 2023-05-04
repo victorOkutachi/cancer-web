@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='flex w-full h-12 items-center justify-between p-10  shadow-sm'>
-        <img src='images/ccinlogo.png' className='h-10 cursor-pointer '/>
+        <img alt='CCIN' src='./cancer-web/images/ccinlogo.png' className='h-10 cursor-pointer '/>
         
 
         <ul className='hidden grid-cols-5 col-span-4 items-center md:flex '>
@@ -33,16 +33,16 @@ const Navbar = () => {
              {menu ? <AiOutlineClose color='white' size={20} /> : <HiOutlineMenuAlt2 size={20}/>}     
         </div>
         <div className={menu ? 'absolute left-0 top-0 w-full h-screen flex flex-col items-center justify-center bg-[#007f5f] ease-in-out duration-500 text-white' : 'fixed left-[-100%]'}>
-        <img src='images/ccinlogo.png' className=' absolute top-5 left-10 h-10 cursor-pointer '/>
+        <img src='./cancer-web/images/ccinlogo.png' className=' absolute top-5 left-10 h-10 cursor-pointer '/>
                 <ul className='uppercase p-4'>
                     
-                    <li className='py-2 text-xl font-medium'>About</li>
+                    <li className='py-2 text-xl font-medium'><Link to='/about'>About</Link></li>
+                    <li className='py-2 text-xl font-medium'><Link to='/mission'>Mission</Link></li>
                     
-                    <li className='py-2 text-xl  font-medium'>Programs</li>
+                    <li className='py-2 text-xl  font-medium'><Link to='/programs'>Programs</Link></li>
                     <li className='py-2 text-xl font-medium'>Cancer In Nigeria</li>
                     <li className='py-2 text-xl font-medium'>Opportunities</li>
                     <li className='py-2 text-xl font-medium'>Mentorship Schemes</li>
-                    <li className='py-2 text-xl font-medium'>Spotlight Nigerians</li>
                     <li className='py-2 text-xl font-medium text-pink-400'>Donate</li>
                 </ul>
             </div>
