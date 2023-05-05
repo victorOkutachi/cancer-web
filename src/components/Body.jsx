@@ -12,7 +12,7 @@ const Body = () => {
       <div className='w-full flex flex-col items-center mx-auto md:flex-row p-14' data-aos="fade-up">
         <div className='w-[300px] h-[300px] flex flex-col items-center mb-4 md:mb-0 mx-2 '>
           <div className='w-[100px] h-[100px] rounded-full '>
-            <img className='w-full h-full' src='./cancer-web/images/capabuilding.png'/>
+            <img className='w-full h-full' src='images/capabuilding.png'/>
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Mentorship & Capacity Building</h1>
           <p className='text-[16px] font-medium text-center'>Mentoring the Oncology talents in Nigeria and creating an avenue to support people with cancer</p>
@@ -21,7 +21,7 @@ const Body = () => {
 
         <div className='w-[300px] h-[300px] flex flex-col items-center my-4 md:my-0 mx-3'>
           <div className='w-[100px] h-[100px] rounded-full bg-gray-300'>
-            <img className='w-full h-full' src='./cancer-web/images/testtube.png'/>
+            <img className='w-full h-full' src='images/testtube.png'/>
           </div>
           <h1 className='py-4 font-bold text-2xl text-center'>Diagnosing Cancer In Nigeria</h1>
           <p className='text-[16px] font-medium text-center'>We Aim to provide the best treatment and care to cancer patients in Nigeria</p>
@@ -30,7 +30,7 @@ const Body = () => {
 
         <div className='w-[300px] h-[300px] flex flex-col items-center my-4 md:my-0 mx-3'>
           <div className='w-[100px] h-[100px] rounded-full '>
-            <img className='w-full h-full rounded-full object-cover' src='./cancer-web/images/micnew.png'/>
+            <img className='w-full h-full rounded-full object-cover' src='images/micnew.png'/>
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Awareness & Cancer Prevention</h1>
           <p className='text-[16px] font-medium text-center'>We are invested in the creation and dissemination of materials

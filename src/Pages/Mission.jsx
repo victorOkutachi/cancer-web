@@ -26,7 +26,7 @@ const Mission = () => {
               willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost
               non-existent, a major objective for us is to change this situation in the long term.
               </p>
-              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='./cancer-web/images/capa.jpg'/>
+              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='images/capa.jpg'/>
             </div>
 
 
@@ -37,7 +37,7 @@ const Mission = () => {
               At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
               in order to organize free and/or affordable cancer screening services. 
               </p>
-              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='./cancer-web/images/diag.jpg'/>
+              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='images/diag.jpg'/>
             </div>
 
             <div id='awareness and cancer prevention'>

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='flex w-full h-12 items-center justify-between p-10  shadow-sm'>
-        <img alt='CCIN' src='./cancer-web/images/ccinlogo.png' className='h-10 cursor-pointer '/>
+        <img alt='CCIN' src='images/ccinlogo.png' className='h-10 cursor-pointer '/>
         
 
         <ul className='hidden grid-cols-5 col-span-4 items-center md:flex '>
