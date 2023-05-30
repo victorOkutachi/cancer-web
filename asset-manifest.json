@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cancer-web/static/css/main.679f230f.css",
-    "main.js": "/cancer-web/static/js/main.91e72aad.js",
+    "main.css": "/cancer-web/static/css/main.ff7ec9df.css",
+    "main.js": "/cancer-web/static/js/main.d98a9341.js",
     "index.html": "/cancer-web/index.html",
-    "main.679f230f.css.map": "/cancer-web/static/css/main.679f230f.css.map",
-    "main.91e72aad.js.map": "/cancer-web/static/js/main.91e72aad.js.map"
+    "main.ff7ec9df.css.map": "/cancer-web/static/css/main.ff7ec9df.css.map",
+    "main.d98a9341.js.map": "/cancer-web/static/js/main.d98a9341.js.map"
   },
   "entrypoints": [
-    "static/css/main.679f230f.css",
-    "static/js/main.91e72aad.js"
+    "static/css/main.ff7ec9df.css",
+    "static/js/main.d98a9341.js"
   ]
 }
