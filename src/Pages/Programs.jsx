@@ -5,10 +5,10 @@ import { programs } from '../data'
 
 const Programs = () => {
   return (
-    <div className='flex flex-col '>
+    <div className='flex flex-col font-Merriweather'>
         <Navbar/>
         <div className='flex flex-col px-4'>
-        <h1 className='text-[35px] font-bold font-bold font-Delicious-Handrawn text-[#008024] pt-8'>Our Programs</h1>
+        <h1 className='text-[35px] font-bold font-bold text-[#008024] pt-8'>Our Programs</h1>
         <p className='md:text-[16px] font-kanit pb-2'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting
         impact through our campaigns and programs in the cancer domain. While our efforts are driven by our organization's 
         singular focus, we spread a wide net by investing in a variety of progressive programs. </p>
@@ -18,8 +18,8 @@ const Programs = () => {
        <div className='flex flex-col'>
         {programs.map(item=>(
           <div className='flex flex-col'>
-            <h1 className='px-4 py-4 text-[28px] font-bold font-Delicious-Handrawn text-[#008024]'>{item.title}</h1>
-            <img className='h-[360px] w-[380px] shadow-lg rounded-md m-auto' src={item.img} key={item.id}/> 
+            <h1 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>{item.title}</h1>
+            <img className='h-[380px] w-[380px] shadow-lg rounded-md my-4 px-4 mx-auto' src={item.img} key={item.id}/> 
             <p className='md:text-[16px] px-5 py-3'>{item.desc}</p>
             
           </div>

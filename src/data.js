@@ -68,7 +68,7 @@ export const programs = [
         id: 4,
         img: "images/breastcancer.png",
         title: "Surviving Breast Cancer: The Nigerian Experience",
-        desc: "Breast cancer is the most prevalent cause of cancer related deaths in Nigeria. Fortunately, many women survive this. By focusing on these women's amazing and inspiring stories, we intend to create awareness whilst raising funds in support of other wowen currently fighting the disease. ",
+        desc: "Breast cancer is the most prevalent cause of cancer related deaths in Nigeria. Fortunately, many women survive this. By focusing on these women's amazing and inspiring stories, we intend to create awareness whilst raising funds in support of other women currently fighting the disease. ",
     
     },
     

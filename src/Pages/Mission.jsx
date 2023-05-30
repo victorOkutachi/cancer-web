@@ -4,17 +4,25 @@ import Navbar from '../components/Navbar'
 
 const Mission = () => {
   return (
-    <div className='w-full h-full flex flex-col'>
+    <div className=' flex flex-col font-Merriweather'>
         <Navbar/> 
-        <div className='w-full h-full flex flex-col font-kanit pt-4 px-4'>
-            <h2 className='text-sm font-bold text-[#008024] pb-4'>Control Cancer Research Initiative Nigeria</h2>  
-            <div className='flex flex-col lg:flex-row justify-center'>
-              <h1 className='text-[40px] md:text-[50px] font-bold font-Delicious-Handrawn text-[#008024] md:max-w-[700px]'>Building Capacity,</h1>
-              <h1 className='text-[40px] md:text-[50px] font-bold font-Delicious-Handrawn text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
-
-            </div>  
-            
-            <p className='md:text-[18px] lg:m-auto lg:text-[14px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
+        <div style={{
+            backgroundImage: `url(${'images/mission.jpg'})`
+            }}
+            className='w-full h-full bg-no-repeat bg-cover '
+            >
+                <div className='bg-overlay2-rgba w-full h-[550px] flex flex-col text-white'>
+                            <h2 className='text-sm font-bold ml-3 mt-4 pb-4'>Control Cancer Research Initiative Nigeria</h2>
+                            <div className=' flex-col mt-20 lg:flex-row mx-4 justify-center'>
+                              <h1 className='text-[40px] md:text-[75px] font-bold  text-green-400 md:max-w-[700px]'>Building Capacity,</h1>
+                              <h1 className='text-[40px] md:text-[75px] font-bold  text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
+                            </div> 
+                            <p className='md:text-[18px] mx-4 mt-6 lg:text-[24px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
+                </div>
+                 
+        
+        </div>
+        <div className='w-full h-full flex flex-col pt-4 px-4'>
             <h1 className='text-[32px] font-bold  text-[#008024] pt-8'>Our Mission & Vision</h1>
             <p className='md:text-[16px]'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
             impact through our campaigns and programs in the cancer domain.</p>
@@ -26,7 +34,7 @@ const Mission = () => {
               willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost
               non-existent, a major objective for us is to change this situation in the long term.
               </p>
-              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='images/capa.jpg'/>
+              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[900px] shadow-lg object-fill mt-4 rounded-md mx-auto' src='images/capa.jpg'/>
             </div>
 
 
@@ -37,7 +45,7 @@ const Mission = () => {
               At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
               in order to organize free and/or affordable cancer screening services. 
               </p>
-              <img className='h-[380px] w-[380px] shadow-lg mt-4 rounded-md mx-auto' src='images/diag.jpg'/>
+              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[900px] object-fill shadow-lg mt-4 rounded-md mx-auto' src='images/diag.jpg'/>
             </div>
 
             <div id='awareness and cancer prevention'>

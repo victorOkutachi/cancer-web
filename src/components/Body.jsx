@@ -2,9 +2,9 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div className='w-full flex flex-col px-4 pt-12 md:px-16 overflow-hidden'>
+    <div className='w-full flex flex-col font-Merriweather px-4 pt-12 md:px-16 overflow-hidden'>
       <div className='flex flex-col md:flex-row  md:justify-between md:items-center'>
-        <h1 className='text-[32px] font-bold font-Delicious-Handrawn text-[#008024]'>Our Mission & Vision</h1>
+        <h1 className='text-[32px] font-bold text-[#008024]'>Our Mission & Vision</h1>
         <p className='text-[16px] font-medium max-w-[400px] py-2 md:py-0'> We are working to improve access to high quality cancer treatment
             and care resources for Nigerians
         </p>

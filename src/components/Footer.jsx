@@ -6,7 +6,7 @@ import {RiLinkedinFill, RiFacebookFill, RiTwitterFill} from 'react-icons/ri'
 
 const Footer = () => {
   return (
-    <div className='flex w-full items-center justify-center bg-[#008024] text-white'>
+    <div className='flex w-full items-center font-Merriweather justify-center bg-[#008024] text-white'>
         <div className='flex flex-col items-center justify-center'>
             <a className='pt-10 pb-2 text-[10px] md:text-sm'>info@controlcancerinitiativeng.org</a>
             <div className='flex items-center mx-auto py-2'>

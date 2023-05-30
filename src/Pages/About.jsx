@@ -4,34 +4,33 @@ import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div id='container' className=' w-full h-full flex flex-col items-center '>
+    <div id='container' className=' flex flex-col font-Merriweather items-center '>
         <Navbar/>
-        <div id='Wrapper' className='w-full h-full flex flex-col items-center px-3'>
+        <div id='Wrapper' className='w-full h-full flex flex-col '>
  
-            <div id='Who we are' className='flex flex-col items-center'>
+            <div style={{
+                backgroundImage: `url(${'images/about.jpg'})`
+                }}
+                 id='Who we are' className='h-[280px] w-full md:h-full bg-no-repeat bg-cover'>
+                <div className='bg-overlay2-rgba w-full h-[280px] md:h-[550px] flex flex-col text-center items-center justify-center text-white'>
+                <h1 className='text-[24px] md:text-[36px] font-bold text-center  pb-3'>WHO WE ARE</h1>
+                <p className='md:text-[16px] font-medium px-3 pb-2 md:mx-10 md:text-[24px] text-center'>
+                    Taking the extra step of facilitating a sustainable scientific environment that will usher 
+                    Nigeria into the forefront of cancer research, treatment and care.
+                </p>
+                </div>
                
-                <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>WHO WE ARE</h1>
-                <p className='md:text-[16px] pb-2 text-center'>
-                    Our initiative was born out of a realization that Nigeria's fight against cancer requires
-                    a sustainable commitment to developing local scientific capacity and infrastructure. In addition
-                    to advocacy and awareness programs, we are determined to take the extra step of facilitating a sustainable 
-                    scientific environment that will usher Nigeria into the forefront of cancer research, treatment and care. 
-                </p>
-                <p className='md:text-[16px] pb-4 text-center'>
-                    Dealing with these challenges requires problem-solvers who bring different perspectives and are 
-                    willing to take risks to productively engage with the global community and modernize our cancer research 
-                    and management capabilities.
-                </p>
+                
             </div>
 
-            <div id='About Us' className='flex flex-col items-center'>
-                <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>ABOUT</h1>
-                <p className='md:text-[16px] pb-6 text-center'>
+            <div id='About Us' className='flex flex-col px-3'>
+                <h1 className='text-[24px] font-bold text-center md:text-left md:mx-4 text-[#008024] pt-8'>ABOUT</h1>
+                <p className='md:text-[16px] text-center md:text-left pb-6 md:max-w-[900px] md:mx-4'>
                     Founded in 2020, our team consists of young highly talented and patriotic Nigerian oncology 
                     professionals. We are determined to make an impact in expediting Nigeria's scientific advancement in 
                     cancer research.  A core objective of ours is to facilitate the building up of local capacity in all aspects
-                    of cancer care, research and management. With 6 PhD level biomedical scientists in it's executive team and 
-                    over 60 active volunteers & mentees, CCIN is inspiring a new generation of oncology professionals.
+                    of cancer care, research and management. With several PhD level biomedical scientists in it's executive team and 
+                    hundreds of active volunteers & mentees, CCIN is inspiring a new generation of oncology professionals.
                 </p>
             </div>
 
