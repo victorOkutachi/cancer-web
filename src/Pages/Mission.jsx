@@ -11,13 +11,13 @@ const Mission = () => {
             }}
             className='w-full h-full bg-no-repeat bg-cover '
             >
-                <div className='bg-overlay2-rgba w-full h-[550px] flex flex-col text-white'>
+                <div className='bg-overlay-rgba w-full h-[550px] flex flex-col text-white'>
                             <h2 className='text-sm font-bold ml-3 mt-4 pb-4'>Control Cancer Research Initiative Nigeria</h2>
                             <div className=' flex-col mt-20 lg:flex-row mx-4 justify-center'>
                               <h1 className='text-[40px] md:text-[75px] font-bold  text-green-400 md:max-w-[700px]'>Building Capacity,</h1>
                               <h1 className='text-[40px] md:text-[75px] font-bold  text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
                             </div> 
-                            <p className='md:text-[18px] mx-4 mt-6 lg:text-[24px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
+                            <p className='md:text-[18px] font-medium mx-4 mt-6 lg:text-[24px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
                 </div>
                  
         

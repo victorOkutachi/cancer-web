@@ -8,7 +8,7 @@ const Opportunities = () => {
         <Navbar/>
 
         <div style={{
-                backgroundImage: `url(${'cancer-web/images/tubes.jpg'})`
+                backgroundImage: `url(${'images/tubes.jpg'})`
                 }}
                  id='Who we are' className='h-[280px] w-full md:h-full bg-no-repeat bg-cover'>
                 <div className='bg-overlay2-rgba w-full h-[280px] md:h-[550px] flex flex-col'>
@@ -35,7 +35,7 @@ const Opportunities = () => {
             <h1 className='text-[24px] px-4 md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>Road-Map To A Career In Cancer Research</h1>
             <div className='flex w-full bg-pink-400 items-center justify-center'>
                 <img className='h-[280px] w-5/6 h-5/6 bg-no-repeat bg-cover'
-                src='cancer-web/images/roadmap.jpg'/>
+                src='images/roadmap.jpg'/>
             </div>
 
 
@@ -183,7 +183,7 @@ const Opportunities = () => {
             <div id='a guide to successful scholarship application' className='flex flex-col '>
                 <h1 className='text-[24px] px-4 md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>A Guide To Successful Scholarship Applications</h1>
                 <img  className='h-[280px] w-full md:h-2/3 bg-no-repeat bg-cover'
-                src='cancer-web/images/scholar.jpg'/>
+                src='images/scholar.jpg'/>
                 <p className='md:text-[16px] px-4 text-center font-bold py-3'>By Chigozie Joseph Samuel</p>
 
                 <p className='md:text-[16px] px-4  py-3'>
@@ -442,7 +442,7 @@ const Opportunities = () => {
                     Top Biomedical Research Institutes With Cancer Research International PhD Programs
                 </h1>
                 <div style={{
-                    backgroundImage: `url(${'cancer-web/images/testtubes.jpg'})`
+                    backgroundImage: `url(${'images/testtubes.jpg'})`
                     }}
                     id='Who we are' className='h-[280px] w-full md:h-full bg-no-repeat bg-cover'>
                     <div className='bg-overlay2-rgba w-full h-[280px] md:h-[550px] flex flex-col'>
