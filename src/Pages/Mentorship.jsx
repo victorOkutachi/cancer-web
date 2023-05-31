@@ -15,7 +15,7 @@ const Mentorship = () => {
         </div>
 
         <div>
-            <h1 className='text-center md:text-left md:px-4 py-4 text-[28px] font-bold text-[#008024]'>Mentorship And Capacity Building</h1>
+            <h1 className='text-center md:text-left md:px-4 py-4 text-[24px] md:text-[28px] font-bold text-[#008024]'>Mentorship And Capacity Building</h1>
             <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left text-center px-5 py-3'>A minimum of 170 fully functional comprehensive cancer treatment centres are needed to manage 
             cancer effectively, Nigeria currently has only 8 cancer centres with a radiotherapy device. In addition to this infrastructural 
             challenge is the chronic shortage of oncology professionals. We at CCIN are working towards grooming a new 
@@ -33,7 +33,7 @@ const Mentorship = () => {
         </div>
 
         <div className='flex flex-col bg-[#c7f9cc] w-full mt-10'>
-            <h1 className='text-center md:text-left md:px-4 py-4 text-[28px] font-bold text-[#008024]'>Need Help With Your Scholarship Application?</h1>
+            <h1 className='text-center md:text-left md:px-4 py-4 text-[24px] md:text-[28px] font-bold text-[#008024]'>Need Help With Your Scholarship Application?</h1>
             <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left text-center px-5 py-3'>Send us an email stating as clearly as possible your needs and a mentor will respond to your request. 
                We ask that you send your request well ahead in time so that we can provide a thorough review.
             </p>

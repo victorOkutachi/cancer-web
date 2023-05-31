@@ -10,9 +10,16 @@ const Footer = () => {
         <div className='flex flex-col items-center justify-center'>
             <a className='pt-10 pb-2 text-[10px] md:text-sm'>info@controlcancerinitiativeng.org</a>
             <div className='flex items-center mx-auto py-2'>
-                <RiLinkedinFill className='mx-3 hover:scale-125 duration-300' size={20}/>
-                <RiFacebookFill className='mx-3 hover:scale-125 duration-300' size={20}/>
-                <RiTwitterFill className='mx-3 hover:scale-125 duration-300' size={20}/>
+              <a href='https://www.linkedin.com/company/cancer-research-nigeria/'  target={'_blank'}>
+              <RiLinkedinFill className='mx-3 hover:scale-125 duration-300' size={25}/>
+              </a>
+              <a href=''>
+              <RiFacebookFill className='mx-3 hover:scale-125 duration-300' size={25}/>
+              </a>
+              <a href='https://twitter.com/cancer_ng?s=11&t=kz-KbJvD9rv0EzOT_sO4PQ' target={'_blank'} >
+              <RiTwitterFill className='mx-3 hover:scale-125 duration-300' size={25}/>
+              </a> 
+                
             </div>
             <ul className='items-center flex text-[8px] space-x-2 my-1'>
               <li>Contact Us</li>

@@ -13,7 +13,7 @@ const Cancerinng = () => {
             }}
             className='w-full h-full bg-no-repeat bg-cover'
             >
-                <div className='bg-overlay-rgba w-full h-[550px] flex flex-col text-center items-center justify-center text-white'>
+                <div className='bg-overlay3-rgba w-full h-[550px] flex flex-col text-center items-center justify-center text-white'>
                 <h1 className='text-3xl py-2 md:text-5xl font-bold text-white text-center'>CONTROL CANCER INITIATIVE NIGERIA</h1>
                 <p className='text-lg px-2 md:text-2xl font-bold text-center'>Building Capacity, Defeating Cancer</p>
                 <button className='text-white font-bold hover:text-white border-[2px] border-white hover:bg-[#008024] hover:border-[#008024] px-6 py-2 mt-16 mx-auto flex items-center'>Get Involved</button>
@@ -42,7 +42,7 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/chart1.jpg' 
-            className='h-[380px] w-[380px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[180px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
            
             </div>
 
@@ -51,8 +51,6 @@ const Cancerinng = () => {
         <div id='cancer mortality in nigeria'  className='flex flex-col '>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Mortality In Nigeria</h2>
             <div className='flex flex-col md:flex-row'>
-            <img src='images/chart2.jpg' 
-            className='h-[380px] w-[380px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
             <div className='flex flex-col'>
             <p className='md:text-[16px] md:max-w-[580px] px-5 py-3'>
                Cancer is quickly overtaking many infections and diseases in Africa and indeed Nigeria as the leading 
@@ -68,6 +66,9 @@ const Cancerinng = () => {
                 diagnostic facilities as well as finicial difficulties.
             </p>
             </div>
+
+            <img src='images/chart2.jpg' 
+            className='h-[180px] w-[340px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
             </div>
 
         </div>
@@ -116,7 +117,7 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/facility.jpg' 
-            className='h-[380px] w-[380px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[260px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
             </div>
 
         </div>
@@ -125,8 +126,6 @@ const Cancerinng = () => {
         <div id='cancer treatment cost and the challenge of poverty'  className='flex flex-col '>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Treatment Cost And The Challenge Of Poverty</h2>
             <div className='flex flex-col md:flex-row'>
-            <img src='images/poverty.jpg' 
-            className='h-[380px] w-[380px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
             <div className='flex flex-col'>
             <p className='md:text-[16px] md:max-w-[580px] px-5 py-3'>
                 Nigeria's National Health Insurance Scheme (NHIS) does not cover cancer, neither do plans from several health 
@@ -145,6 +144,10 @@ const Cancerinng = () => {
                 collaboration with key stakeholders in the private and non-profit sectors needs to be urgently put in place.
             </p>
             </div>
+
+            <img src='images/poverty.jpg' 
+            className='h-[300px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+
             </div>
 
         </div>

@@ -25,7 +25,7 @@ const About = () => {
 
             <div id='About Us' className='flex flex-col px-3'>
                 <h1 className='text-[24px] font-bold text-center md:text-left md:mx-4 text-[#008024] pt-8'>ABOUT</h1>
-                <p className='md:text-[16px] text-center md:text-left pb-6 md:max-w-[900px] md:mx-4'>
+                <p className='md:text-[16px] text-center md:text-left pb-6 md:max-w-[950px] mx-4'>
                     Founded in 2020, our team consists of young highly talented and patriotic Nigerian oncology 
                     professionals. We are determined to make an impact in expediting Nigeria's scientific advancement in 
                     cancer research.  A core objective of ours is to facilitate the building up of local capacity in all aspects
