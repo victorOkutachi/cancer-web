@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Aos from 'aos'
 
 const Mission = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 1000})
+  })
+
   return (
     <div className=' flex flex-col font-Merriweather'>
         <Navbar/> 
@@ -23,31 +29,12 @@ const Mission = () => {
         </div>
         <div className='w-full h-full flex flex-col pt-4 px-4'>
             <h1 className='text-[32px] font-bold  text-[#008024] pt-8'>Our Mission & Vision</h1>
-            <p className='md:text-[16px] md:max-w-[950px]'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
+            <p className='md:text-[16px] md:max-w-[950px]' data-aos='fade-up'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
             impact through our campaigns and programs in the cancer domain.</p>
-            <div id='Mentorship Building'>
-              <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Mentorship & Capacity Building</h1>
-              <p className='md:text-[16px] md:max-w-[950px]'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
-              to hope prevail against cancer. With our cancer mentoring scheme dubbed "#payitforward cancer
-              Nigeria", we seek to pair up early and mid-stage cancer specialists with young highly motivated Nigerian talents
-              willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost
-              non-existent, a major objective for us is to change this situation in the long term.
-              </p>
-              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[800px] shadow-lg object-fill mt-4 rounded-md mx-auto' src='images/capa.jpg'/>
-            </div>
 
 
-            <div id='Diagnosing cancer in nigeria'>
-              <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Diagnosing Cancer In Nigeria</h1>
-              <p className='md:text-[16px] md:max-w-[950px]'>If diagnosed early, most solid tumors are in fact curable. Early cancer
-              diagnosis is hampered by factors such as a lack of access to diagnostic facilities and financial difficulties.
-              At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
-              in order to organize free and/or affordable cancer screening services. 
-              </p>
-              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[800px] object-fill shadow-lg mt-4 rounded-md mx-auto' src='images/diag.jpg'/>
-            </div>
 
-            <div id='awareness and cancer prevention'>
+            <div id='awareness and cancer prevention' data-aos='fade-up'>
               <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
               <p className='md:text-[16px] md:max-w-[950px] pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
               we are invested in the creation, coordination and dissemination of evidence based prevention campaign 
@@ -56,6 +43,30 @@ const Mission = () => {
               least 20% in the next decade.
               </p>
             </div>
+
+
+            <div id='Diagnosing cancer in nigeria' data-aos='fade-up'>
+              <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Diagnosing Cancer In Nigeria</h1>
+              <p className='md:text-[16px] md:max-w-[950px]'>If diagnosed early, most solid tumors are in fact curable. Early cancer
+              diagnosis is hampered by factors such as a lack of access to diagnostic facilities and financial difficulties.
+              At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
+              in order to organize free and/or affordable cancer screening services. 
+              </p>
+              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[800px] object-fill shadow-lg my-4 rounded-md mx-auto' data-aos='fade-up' src='images/diag.jpg'/>
+            </div>
+
+            <div id='Mentorship Building' data-aos='fade-up'>
+              <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Mentorship & Capacity Building</h1>
+              <p className='md:text-[16px] md:max-w-[950px]'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
+              to hope prevail against cancer. With our cancer mentoring scheme dubbed "#payitforward cancer
+              Nigeria", we seek to pair up early and mid-stage cancer specialists with young highly motivated Nigerian talents
+              willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost
+              non-existent, a major objective for us is to change this situation in the long term.
+              </p>
+              <img className='h-[380px] w-[380px] md:h-[550px] md:w-[800px] shadow-lg object-fill my-4 rounded-md mx-auto' data-aos='fade-up' src='images/capa.jpg'/>
+            </div>
+
+
 
         </div>
         <Footer/>

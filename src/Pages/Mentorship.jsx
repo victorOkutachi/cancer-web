@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Aos from 'aos'
 
 const Mentorship = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 1000})
+  })
+
   return (
     <div className='flex flex-col font-Merriweather'>
         <Navbar/>
@@ -26,8 +32,8 @@ const Mentorship = () => {
             <p className='md:text-[16px] md:text-left text-center md:max-w-[580px] px-4 py-3'>Join our #payitforward movement</p>
             <div className='flex flex-col md:relative md:flex-row'>
 
-            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 py-2 mt-4 md:mx-4 mx-auto flex items-center'>Register to be a mentor</button>
-            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 md:absolute md:right-4 py-2 mt-6 mx-auto flex items-center'>Register to be a mentee</button>
+            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 py-2 mt-4 md:mx-4 mx-auto flex items-center' data-aos='fade-right'>Register to be a mentor</button>
+            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 md:absolute md:right-4 py-2 mt-6 mx-auto flex items-center' data-aos='fade-left'>Register to be a mentee</button>
             </div>
            
         </div>

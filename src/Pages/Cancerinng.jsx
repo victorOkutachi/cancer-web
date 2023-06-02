@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Aos from 'aos'
 
 const Cancerinng = () => {
+
+    useEffect(()=>{
+        Aos.init({duration: 1000})
+      })
+
+
   return (
     <div className='flex flex-col font-Merriweather'>
     <Navbar/>
@@ -26,7 +33,7 @@ const Cancerinng = () => {
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Incidence In Nigeria</h2>
             <div className='flex flex-col md:flex-row'>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col' data-aos='fade-up'>
             <p className='md:text-[16px] md:max-w-[580px] px-5 py-3'>
                 The most recent comprehnsive study of cancer incidence in Nigeria placed the total number of new 
                 cases at 115,950 in 2018. Of this number, 44,928(about 39%) cases are male and 71,022(about 61%) cases 
@@ -42,13 +49,13 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/chart1.jpg' 
-            className='h-[180px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[180px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
            
             </div>
 
         </div>
 
-        <div id='cancer mortality in nigeria'  className='flex flex-col '>
+        <div id='cancer mortality in nigeria'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Mortality In Nigeria</h2>
             <div className='flex flex-col md:flex-row'>
             <div className='flex flex-col'>
@@ -68,12 +75,12 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/chart2.jpg' 
-            className='h-[180px] w-[340px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[180px] w-[340px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
             </div>
 
         </div>
 
-        <div id='cancer facilities and expression in nigeria'  className='flex flex-col '>
+        <div id='cancer facilities and expression in nigeria'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Facilities And Expertise In Nigeria</h2>
             <div className='flex flex-col md:flex-row'>
            <div className='flex flex-col'>
@@ -117,13 +124,13 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/facility.jpg' 
-            className='h-[260px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[260px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
             </div>
 
         </div>
 
         
-        <div id='cancer treatment cost and the challenge of poverty'  className='flex flex-col '>
+        <div id='cancer treatment cost and the challenge of poverty'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Treatment Cost And The Challenge Of Poverty</h2>
             <div className='flex flex-col md:flex-row'>
             <div className='flex flex-col'>
@@ -146,13 +153,13 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/poverty.jpg' 
-            className='h-[300px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto'/>
+            className='h-[300px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
             </div>
 
         </div>
 
-        <div id='cancer databases and data management in nigeria'  className='flex flex-col '>
+        <div id='cancer databases and data management in nigeria'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] font-bold text-[#008024]'>Cancer Databases And Data Management In Nigeria</h2>
             
             <p className='md:text-[16px] md:max-w-[950px] px-5 py-3'>

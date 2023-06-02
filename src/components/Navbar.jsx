@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className='flex w-full h-12 items-center justify-between p-10  shadow-sm'>
         <div>
-            <Link to='/about'>
+            <Link to='/'>
             <img alt='CCIN' src='images/ccinlogo.png' className='h-10 cursor-pointer '/>
             </Link>
        
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <li className='py-2 text-xl font-medium'><Link to='/about'>About</Link></li>
                     <li className='py-2 text-xl font-medium'><Link to='/mission'>Mission</Link></li>
                     
-                    <li className='py-2 text-xl  font-medium'><Link to='/programs'>Programs</Link></li>
+                    <li className='py-2 text-xl  font-medium'><Link to='/programs'>Programmes</Link></li>
                     <li className='py-2 text-xl  font-medium'><Link to='/cancerinng'>Cancer In Nigeria</Link></li>
                     <li className='py-2 text-xl font-medium'><Link to='/opportunities'>Blog</Link></li>
                     <li className='py-2 text-xl font-medium'><Link to='/mentorship'>Mentorship Schemes</Link></li>

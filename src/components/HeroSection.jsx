@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div style={{
       backgroundImage: `url(${'images/people.png'})`
     }}
-    className='w-full h-full bg-no-repeat bg-cover'
+    className='w-full h-[550px] bg-no-repeat bg-cover'
     >
         <div className='bg-overlay2-rgba w-full h-[550px] flex flex-col font-Merriweather text-center items-center justify-center text-white'>
         <h1 className='text-3xl py-2 md:text-5xl font-bold text-white text-center'>CONTROL CANCER INITIATIVE NIGERIA</h1>

@@ -59,7 +59,7 @@ export const programs = [
     },
     {
         id: 3, 
-        img: "images/forward.jpg",
+        img: "images/girl.jpg",
         title: "#Payitforward Cancer Nigeria",
         desc: "Nigeria needs an army of oncology professionals! Are you a Nigerian early or mid career cancer researcher/clinician or nurse? Would you like to help young talents enter a career in oncology and biomedicine? Then please sign up to our #payitforward cancer Nigeria mentoring scheme to pair up with highly motivated and high achieving young life scientist, nurses or doctors. If you are not a Nigerian but interested in supporting our capacity building efforts, your input is welcome.",
     

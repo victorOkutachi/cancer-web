@@ -3,6 +3,7 @@ import Body from '../components/Body'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Involvement from '../components/Involvement'
+import Metrics from '../components/Metrics'
 import Navbar from '../components/Navbar'
 import Programme from '../components/Programme'
 
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Body/>
         <Programme/>
         <Involvement/>
+        <Metrics/>
         <Footer/>
         
         
