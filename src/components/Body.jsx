@@ -21,7 +21,7 @@ const Body = () => {
 
       <div className='flex flex-col md:flex-row  md:justify-between md:items-center'>
         <h1 className='text-[32px] font-bold mt-12 text-[#008024]'>Our Vision</h1>
-        <p className='text-[16px] font-medium max-w-[400px] py-2 lg:mt-10'> A future-state Nigeria where cancer is fully under control through; 
+        <p className='text-[16px] font-medium max-w-[400px] py-2 lg:mt-10'> A future-state Nigeria where cancer is fully under control
         </p>
       </div>
      
@@ -33,7 +33,7 @@ const Body = () => {
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Awareness & Cancer Prevention</h1>
           <p className='text-[16px] font-medium text-center'>We are invested in the creation and dissemination of materials to enlighten Nigerians on cancer risks and prevention</p>
-          <button className='text-[#008024] text-[14px] font-bold rounded-full hover:text-white border-[2px] border-[#008024] hover:bg-[#008024] hover:border-[#008024] py-[6px] w-[100px] flex items-center justify-center my-5 mx-auto md:mx-0'><Link to='/mission'>Read More</Link></button>
+          <button className='text-[#008024] text-[14px] font-bold rounded-full hover:text-white border-[2px] border-[#008024] hover:bg-[#008024] hover:border-[#008024] py-[6px] w-[100px] flex items-center justify-center my-7 mx-auto md:mx-0'><Link to='/mission'>Read More</Link></button>
         </div>
 
    
