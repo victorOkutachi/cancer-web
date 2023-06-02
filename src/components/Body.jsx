@@ -2,7 +2,7 @@ import Aos from 'aos'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import Gsapmission from './Gsapmission'
+
 
 const Body = () => {
 
@@ -12,24 +12,28 @@ const Body = () => {
   return (
 
     <div className='w-full flex flex-col font-Merriweather px-4 pt-9 md:px-16 overflow-hidden'>
-      <Gsapmission/>
-
       
+
+      <div className='flex flex-col items-center' data-aos='fade-up'>
+        <h1 className='text-[32px] text-center font-bold mt-12 text-[#008024]'>Our Mission</h1>
+        <p className='text-[16px] font-medium text-center py-2 lg:mt-4'> We are working towards making access to high quality cancer treatment and care a reality for ALL Nigerians
+        </p>
+      </div>
     
 
   
 
-      <div className='flex flex-col md:flex-row  md:justify-between md:items-center'>
-        <h1 className='text-[32px] font-bold mt-12 text-[#008024]'>Our Vision</h1>
-        <p className='text-[16px] font-medium max-w-[400px] py-2 lg:mt-10'> A future-state Nigeria where cancer is fully under control
+      <div className='flex flex-col items-center' data-aos='fade-up'>
+        <h1 className='text-[32px] text-center font-bold mt-12 text-[#008024]'>Our Vision</h1>
+        <p className='text-[16px] font-medium text-center py-2 lg:mt-4'> We envisage a future-state Nigeria where cancer is fully under control. We are delivering this vision through our efforts in:
         </p>
       </div>
      
       <div className='flex flex-col md:flex-row md:justify-between lg:justify-evenly md:items-center'>
-      <div className='w-full flex flex-col items-center mx-auto md:flex-row pt-4 ' data-aos="fade-up">
+      <div className='w-full flex flex-col items-center mx-auto md:flex-row pt-4 mb-6' data-aos="fade-up">
         <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center mb-1 md:mb-0 lg:ml-6 '>
           <div className='w-[100px] h-[100px] rounded-full '>
-            <img className='w-full h-full' src='images/capabuilding.png'/>
+            <img className='w-full h-full' src='images/micnew.png'/>
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Awareness & Cancer Prevention</h1>
           <p className='text-[16px] font-medium text-center'>We are invested in the creation and dissemination of materials to enlighten Nigerians on cancer risks and prevention</p>

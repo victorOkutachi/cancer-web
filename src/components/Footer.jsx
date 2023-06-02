@@ -1,7 +1,7 @@
 import React from 'react'
 import {AiOutlineCopyright} from 'react-icons/ai'
 import {AiOutlineMail} from 'react-icons/ai'
-import {RiLinkedinFill, RiFacebookFill, RiTwitterFill} from 'react-icons/ri'
+import {RiLinkedinFill, RiInstagramFill, RiTwitterFill} from 'react-icons/ri'
 
 
 const Footer = () => {
@@ -13,8 +13,8 @@ const Footer = () => {
               <a href='https://www.linkedin.com/company/cancer-research-nigeria/'  target={'_blank'}>
               <RiLinkedinFill className='mx-3 hover:scale-125 duration-300' size={25}/>
               </a>
-              <a href=''>
-              <RiFacebookFill className='mx-3 hover:scale-125 duration-300' size={25}/>
+              <a href='https://instagram.com/cancer_naija?igshid=MzRIODBiNWFIZA==' target={'_blank'} >
+              <RiInstagramFill className='mx-3 hover:scale-125 duration-300' size={25}/>
               </a>
               <a href='https://twitter.com/cancer_ng?s=11&t=kz-KbJvD9rv0EzOT_sO4PQ' target={'_blank'} >
               <RiTwitterFill className='mx-3 hover:scale-125 duration-300' size={25}/>

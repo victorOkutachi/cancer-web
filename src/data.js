@@ -15,20 +15,21 @@ export const listItems = [
     {
         id: 3,
         desc: "Cancer In Nigeria",
-        path: '/cancer'
+        path: '/cancerinng'
     },
 
+    
     {
         id: 4,
-        desc: "Opportunities",
-        path: '/opportunities'
+        desc: "Programmes",
+        path: '/programs'
     },
 
 
     {
         id: 5,
         desc: "Blog",
-        path: '/blog'
+        path: '/opportunities'
     },
 
 

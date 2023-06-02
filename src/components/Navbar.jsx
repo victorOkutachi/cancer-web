@@ -27,9 +27,9 @@ const Navbar = () => {
 
         <ul className='hidden grid-cols-5 col-span-4 items-center md:flex '>
             {listItems.map(item=>(
-            <li className='px-3 text-xl'><a className='text-[11px] text-gray-700 font-medium uppercase tracking-widest cursor-pointer relative group'>{item.desc}
+            <li className='px-3 text-xl'><Link to={item.path} className='text-[11px] text-gray-700 font-medium uppercase tracking-widest cursor-pointer relative group'>{item.desc}
             <div className='absolute w-full h-0.5 bg-[#007f5f] scale-x-0 group-hover:scale-x-100 transition-transform'></div>
-            </a></li>))}
+            </Link></li>))}
             <button className='text-[#007f5f] font-bold rounded-full hover:text-white border-[2px] border-[#007f5f] hover:bg-[#007f5f] hover:border-[#007f5f] px-6 py-1 w-[100px] flex items-center justify-center my-4 mx-auto md:mx-0'>
                 Donate
             </button>
