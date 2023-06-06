@@ -9,6 +9,8 @@ import {HashRouter, Route, Routes } from "react-router-dom";
 import Cancerinng from "./Pages/Cancerinng";
 import Mentorship from "./Pages/Mentorship";
 import Opportunities from "./Pages/Opportunities";
+import Blogone from "./Pages/Blogone";
+import Blogtwo from "./Pages/Blogtwo";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path='/cancerinng' element={<Cancerinng/>}/>
         <Route path='/mentorship' element={<Mentorship/>}/>
         <Route path='/opportunities' element={<Opportunities/>}/>
+        <Route path='/blogone' element={<Blogone/>}/>
+        <Route path='/blogtwo' element={<Blogtwo/>}/>
 
         </Routes>
     </div>

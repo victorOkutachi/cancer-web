@@ -15,9 +15,9 @@ const Mission = () => {
         <div style={{
             backgroundImage: `url(${'images/mission.jpg'})`
             }}
-            className='w-full h-full bg-no-repeat bg-cover '
+            className='w-full h-[600px] bg-no-repeat md:bg-bottom bg-cover '
             >
-                <div className='bg-overlay-rgba w-full h-[550px] flex flex-col text-white'>
+                <div className='bg-overlay-rgba w-full h-[600px] flex flex-col text-white'>
                             <div className=' flex-col mt-20 lg:flex-row mx-4 justify-center'>
                               <h1 className='text-[40px] md:text-[75px] font-bold  text-green-400 md:max-w-[700px]'>Building Capacity,</h1>
                               <h1 className='text-[40px] md:text-[75px] font-bold  text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
@@ -29,14 +29,14 @@ const Mission = () => {
         </div>
         <div className='w-full h-full flex flex-col pt-4 px-4'>
             <h1 className='text-[32px] font-bold  text-[#008024] pt-8'>Our Mission & Vision</h1>
-            <p className='md:text-[16px] pt-3 md:max-w-[950px]' data-aos='fade-up'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
+            <p className='md:text-[16px] pt-3 md:max-w-[1200px]' data-aos='fade-up'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
             impact through our campaigns and programs in the cancer domain.</p>
 
 
 
             <div id='awareness and cancer prevention' data-aos='fade-up'>
               <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
-              <p className='md:text-[16px] pt-3 md:max-w-[950px] pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
+              <p className='md:text-[16px] pt-3 md:max-w-[1200px] pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
               we are invested in the creation, coordination and dissemination of evidence based prevention campaign 
               materials that will enlighten Nigerians on various cancer risk factors and ways to minimize and/or eliminate
               these risks, with this strategy, we hope to significantly reduce the predicted new cancer cases in Nigeria by at
@@ -56,7 +56,7 @@ const Mission = () => {
               </p>
               </div>
               
-              <img className='h-[220px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-1  mx-auto' data-aos='fade-up' src='images/diag.jpg'/>
+              <img className='h-[220px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-1  mx-auto' data-aos='fade-up' src='images/oncology.jpg'/>
             </div>
 
 

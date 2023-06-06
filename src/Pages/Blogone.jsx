@@ -1,67 +1,182 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import { Link } from 'react-router-dom'
 
-
-const Opportunities = () => {
+const Blogone = () => {
   return (
-    <div className='flex flex-col font-Merriweather w-full h-screen'>
+    <div className='flex flex-col w-full h-full'>
         <Navbar/>
-
+        <div className='flex flex-col'>
         <div style={{
-                backgroundImage: `url(${'images/tubes.jpg'})`
-                }}
-                 id='Who we are' className='h-[280px] w-full md:h-[550px] bg-no-repeat bg-cover'>
-                <div className='bg-overlay2-rgba w-full h-[280px] md:h-[550px] flex flex-col'>
-                </div>      
-        </div>
+      backgroundImage: `url(${'images/scholar.jpg'})`
+      }}
+      className='h-[280px] w-full md:h-[450px] bg-center bg-no-repeat bg-cover'>
+      <div className='bg-overlay-rgba w-full h-[280px] md:h-[450px] flex flex-col text-center items-center justify-center text-white'>
+      </div>
 
-        <div className=' flex flex-col items-center px-4 '>
-            <h1 className='text-[24px] md:text-[36px] text-center font-bold text-[#008024] pt-8 pb-3'>Road To A Career In Cancer Research</h1>
-            <p className='md:text-[16px] text-center max-w-[750px]  py-3'>Here, we have put together a non exhaustive pathway for Life science, pharmacy, chemistry 
-            etc. Graduates to land career in oncology and some important things to keep in my mind in your personal journey.
+    </div>
+
+    <div className='w-full flex flex-col px-4'>
+            <h1 className='text-[24px] md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>A Guide To Successful Scholarship Applications</h1>
+            <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left  py-3'>Applying for a Scholarshipis a highly competitive process often riddled 
+            with failures and rejections. We have taken valuable advice from serial scholarship winners to create a proven 
+            strategy to successfully apply and win them. The guide provided here is free and should not be used for commercial purposes.
             </p>
-        </div>
+    </div>
 
-        <div className='flex flex-col w-full md:flex-row mx-auto mb-6 justify-evenly items-center' >
-            <div className='h-[400px] w-5/6 md:w-[400px] rounded-md border-[2px] px-2 md:px-1 shadow-lg py-3 my-4 items-center flex flex-col'>
-            <img className='h-[220px] w-6/7 md:w-[380px] rounded-md shadow-md brightness-50' src='images/scholar.jpg' />
-            <h1 className='text-[16px] md:text-[20px] text-center font-bold text-[#008024] pt-8 pb-3'>A Guide To Successful Scholarship Applications</h1>
-            <button className='text-[12px] font-medium mt-2'><Link to='/blogone'>Read more</Link></button>
-            </div>
-
-
-            <div className='h-[400px] w-5/6 md:w-[400px] rounded-md border-[2px] px-2  md:px-1 shadow-lg py-3 my-4 items-center flex flex-col'>
-            <img className='h-[220px] w-6/7 md:w-[380px] rounded-md shadow-md brightness-50' src='images/testtubes.jpg' />
-            <h1 className='text-[16px] md:text-[20px] text-center font-bold text-[#008024] pt-8 pb-3 md:pt-4 md:pb-0'>Top Biomedical Research Institutes With Cancer Research International PhD Programs</h1>
-             <button className='text-[12px] font-medium mt-2'><Link to='/blogtwo'>Read more</Link></button>
-            </div>
-            
-            
-        </div>
-
-       
-
-        {/* *
-        
-  
-        
-    
+    <div className='flex flex-col'>
+      <h1 className='text-[24px] px-4 md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>Road Map To A Career In Cancer Research</h1>
+      <div className='flex md:w-1/2 mx-auto p-4 md:justify-center items-center bg-pink-400'>
+      <img src='images/roadmap.jpg' className='w-full h-[220px] md:h-[250px] md:w-1/2 bg-cover'/>
+      </div>
+      
+    </div>
 
 
+    <div  className=' flex flex-col px-4'>
+                <h2 className='text-[20px] md:text-[24px] font-bold text-[#008024] pt-8 pb-3'>
+                    Figure 1: Simplistic pathway to a non-clinical oncology career
+                </h2>
 
-            
-            
-            
-                
-            </div>
+                <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3' >
+                Cancer is on the rise in Nigeria, our initiative is determined to help build capacity by guiding 
+                young Nigerians to pursue a career in oncology. The best case scenario will be that our mentees 
+                upon completing their training and building a career abroad will either return to Nigeria to 
+                contribute their scientific knowledge, resources and networks to improve cancer research, care 
+                and prevention in Nigeria or somewhat contribute significantly to the local cancer research 
+                environment through collaborative projects and regular visits to Nigerian labs.
+                </p>
 
-            <div id='a guide to successful scholarship application' className='flex flex-col '>
-                <h1 className='text-[24px] px-4 md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>A Guide To Successful Scholarship Applications</h1>
-                <img  className='h-[280px] w-full md:h-2/3 bg-no-repeat bg-cover'
-                src='images/scholar.jpg'/>
-                <p className='md:text-[16px] px-4 text-center font-bold py-3'>By Chigozie Joseph Samuel</p>
+
+                <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3' >
+                For many of us, finding our way so far into the field of cancer research has not been quite 
+                straightforward nor easy. A vast array of individuals with scientific backgrounds ranging from 
+                classic biomedical programs to physics are known to be cancer researchers. However, for the sake 
+                of convenience and clarity we have streamlined the range of backgrounds to those that can easily 
+                find themselves in cancer research.
+
+                </p>
+                <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3' >
+                    Below is a breakdown of the classic career stages and what you need to do to prepare effectively 
+                    for the next phase 
+                </p>
+
+                <div id='bachelor degree' className='flex flex-col'>
+                    <h3 className='text-[18px] md:text-[20px] font-bold text-pink-300 pt-8 pb-3'>Bachelor's Degree</h3>
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    There is a wide variety of backgrounds in the natural and medical sciences that can easily 
+                    enter a master’s degree relevant to biomedicine. A bachelor’s degree in biochemistry, 
+                    microbiology, biology, physiology, human anatomy, chemistry, biotechnology, genetics, cell 
+                    biology, pharmacy etc. will be typically accepted into a European Master’s program in 
+                    biomedical science. 
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    In order to best position yourself to land an MSc position in biomedicine in the developed 
+                    world, good grades ideally a 4.0/5.0 is competitive for scholarship applications. BSc 
+                    holders may take up additional leadership and extracurricular volunteering activities to 
+                    boost their odds of being selected for a funded position. Furthermore, a solid grasp of the 
+                    research area through online courses in cancer biology and biomedicine in general is a 
+                    strong indicator of motivation.
+
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    Finally, BSc students should within their service year obtain an international passport, 
+                    their academic transcripts, language certifications (may be optional) and solid commitment 
+                    from trusted referees. 
+                    </p>
+
+                </div>
+
+                <div id='bachelor degree' className='flex flex-col'>
+                    <h3 className='text-[18px] md:text-[20px] font-bold text-pink-300 pt-8 pb-3'>Master's Degree</h3>
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    Congratulations! You succeeded in landing a master’s position in biomedicine or related 
+                    program (see figure above). A major point to now consider is your master’s research thesis 
+                    topic. If you hope to get accepted into a competitive PhD position in cancer research, it 
+                    helps if you already have hands on experience in the field. For instance, an applicant for a 
+                    PhD in a cancer drug discovery lab will stand a good chance if they are already experienced 
+                    in cell culturing, functional genomics and/or small molecule experiments. Another smart way 
+                    to gather experience is through internships. Explore these opportunities if your program 
+                    accommodates it. 
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    Furthermore, it is important to graduate your MSc with excellent grades, preferably with 
+                    distinction! And if possible, try to publish a paper during your MSc. The competition is 
+                    steep at leading institutes (please our summary of top institutes to apply). Finally, it 
+                    helps a lot to begin your search very early in your MSc.
+                    </p>
+
+                </div>
+
+                <div id='bachelor degree' className='flex flex-col'>
+                    <h3 className='text-[18px] md:text-[20px] font-bold text-pink-300 pt-8 pb-3'>Doctorate</h3>
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    At this stage you are significantly more mature as a scientist and realizing that the same 
+                    range of skills you have acquired in your prior training is applicable in most biomedical 
+                    research areas, the major determinant of your specialty is the disease context. 
+                    Consequently, irrespective of your previous degree specialization or the title of your 
+                    doctoral program, a PhD candidacy in any area of cancer research qualifies you as a cancer 
+                    researcher.   
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>   
+                    PhDs are tough! Not just for the academic rigor required to create original science but also 
+                    the mental and emotional roller-coaster the 3-6 years (depends on country, continent and/ or 
+                    your performance) will take you. Identifying what career-path you plan to pursue 
+                    subsequently should inform your decisions during the PhD. In general, having high quality 
+                    publications, a number of leadership accomplishments, grant awards, certifications, 
+                    transferrable skills experience etc. will help you stand out for either a postdoc or 
+                    industry position afterwards.  
+                    </p>
+
+                </div>
+
+                <div id='bachelor degree' className='flex flex-col'>
+                    <h3 className='text-[18px] md:text-[20px] font-bold text-pink-300 pt-8 pb-3'>Post PhD Career Options</h3>
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    At this stage and indeed in the previous stages, you may wish to consider your long-term 
+                    career direction. Do you wish to pursue the classic academic route or transition to an 
+                    industry role relevant to your background? In a classic academic route, you can expect to 
+                    spend a number of years going through postdoctoral training before landing an assistant 
+                    professorship and eventually a tenured full professorship position. However, the competition 
+                    for tenure positions are extremely fierce and for many, a senior postdoc position may be the 
+                    plateau for their careers in the developed world.
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    For cancer researchers interested in industry roles in oncology. A myriad number of 
+                    positions are constantly being advertised, you can expect positions with titles such as 
+                    associate scientist, scientists, senior oncology specialist, team lead oncology, head of 
+                    oncology program etc. off the bench, positions such as; medical science liaisons – oncology, 
+                    clinical research associate -oncology etc. are quickly on the rise and may offer opportunity 
+                    for cancer researchers to use their training in biology more practically in oncology 
+                    management.
+
+                    </p>
+
+                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                    In conclusion, pursuing a career in oncology is really rewarding first as your scientific 
+                    efforts may be part of some future life-saving therapeutic and also because of the increasing 
+                    range of opportunities available to you. We at CCIN believe that the oncology research environment 
+                    in Nigeria is ripe for exploration, the more Nigerians are in this field, the more likely we are to 
+                    influence positive changes in cancer research, treatment and management in Nigeria. 
+                    </p>
+
+                </div>
+
+    </div>
+
+
+
+
+
+
+    <div id='a guide to successful scholarship application' className='flex flex-col '>
+                <h1 className='text-[24px] px-4 md:text-[36px] font-bold text-[#008024] pt-8 pb-3'>A Complete Guide To Successful Scholarship Applications</h1>
+              
 
                 <p className='md:text-[16px] px-4  py-3'>
                 For many Nigerian students in bachelor’s and master’s programs in life sciences, winning a 
@@ -297,7 +412,7 @@ const Opportunities = () => {
 
                             </p>
 
-                            <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
+                            <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left pb-8 pt-3'>
                             For any scholarship you are applying for, there are probably 100s of past winners and a couple of 
                             present winners from Nigeria. Having mentors to guide you through any application could greatly boost 
                             your chances of winning. For aspirants with interest in biomedicine, we have a free mentorship program 
@@ -311,282 +426,14 @@ const Opportunities = () => {
 
                 </div>
 
-            </div>
-
-
-            <div id='top international research institutes' className='flex flex-col '>
-                <h1 className='text-[24px] md:text-[36px] font-bold text-[#008024] px-4 pt-8 pb-3'>
-                    Top Biomedical Research Institutes With Cancer Research International PhD Programs
-                </h1>
-                <div style={{
-                    backgroundImage: `url(${'images/testtubes.jpg'})`
-                    }}
-                    id='Who we are' className='h-[280px] w-full md:h-full bg-no-repeat bg-cover'>
-                    <div className='bg-overlay2-rgba w-full h-[280px] md:h-[550px] flex flex-col'>
-                    </div>      
-                </div>
-               
-                <p  className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left px-4 pt-5'>
-                    Here we have put together a comprehensive list of top biomedical research institutes in Europe and Asia 
-                    (to be updated frequently). When making applications please endeavour to pay close attention to the instructions from 
-                    from the institute website. If you are selected for interviews, A mentor from the CCIN can guide you through the process 
-                    , providing you tips and strategies for landing an offer.
-                </p>
-
-                <div id='europe' className='flex flex-col px-4'>
-
-                    <h2 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>Europe</h2>
-                    
-                    <a href='https://www.dkfz.de/en/phd-program/' target={'_blank'} >
-                    <p className='text-blue-500'>The German Cancer Center</p>
-                    </a>
-
-                    <a href='https://www.cancerresearchuk.org/funding-for-researchers/opportunities-for-phd-students-and-postdoc-researchers' target={'_blank'} >
-                    <p className='text-blue-500'>The CRUK PhD Opportunities</p>
-                    </a>
-
-                    <a href='https://www.embl.de/training/eipp/' target={'_blank'} >
-                    <p className='text-blue-500'>EMBL</p>
-                    </a>
-
-                    <a href='https://www.mdc-berlin.de/application' target={'_blank'} >
-                    <p className='text-blue-500'>The Max Delbruck Center</p>
-                    </a>
-
-                    <a href='https://www.fmi.ch/education-careers/programs/' target={'_blank'} >
-                    <p className='text-blue-500'>Friedrich Miescher Institute</p>
-                    </a>
-
-                    <a href='https://www.crick.ac.uk/careers-study/students/phd-students/phd-student-recruitment' target={'_blank'} >
-                    <p className='text-blue-500'>Crick Institute</p>
-                    </a>
-
-                    <a href='https://www2.mrc-lmb.cam.ac.uk/students/international-phd-programme/' target={'_blank'} >
-                    <p className='text-blue-500'>Medical Research Council UK</p>
-                    </a>
-
-                    <a href='https://lifesciencesphd.unige.ch/' target={'_blank'} >
-                    <p className='text-blue-500'>University Of Geneva</p>
-                    </a>
-
-                    <a href='https://www.dresden-ipp.de/' target={'_blank'} >
-                    <p className='text-blue-500'>Dresden International PhD Program</p>
-                    </a>
-
-                    <a href='https://www.mpi-muenster.mpg.de/365788/applications' target={'_blank'} >
-                    <p className='text-blue-500'>Max Planck Institute</p>
-                    </a>
-                   
-                    
-                    <a href='https://www.pasteur.fr/en/education/ppu#application-information' target={'_blank'} >
-                    <p className='text-blue-500'>Institute Pasteur</p>
-                    </a>
-
-                    
-                    <a href='https://cemm.at/phd-program/application/' target={'_blank'} >
-                    <p className='text-blue-500'>CEMM Of The Austrian Academy Of Science</p>
-                    </a>
-
-                    
-                    <a href='https://phd-school.i-med.ac.at/' target={'_blank'} >
-                    <p className='text-blue-500'>Innsbruck PhD School Of Biomedical Sciences</p>
-                    </a>
-
-                    <a href='https://www.training.vbc.ac.at/phd-programme/' target={'_blank'} >
-                    <p className='text-blue-500'>Vienna Biocenter PhD Program</p>
-                    </a>
-
-                    <a href='https://www.crg.eu/en/content/training-phd-students/crg-international-phd-programme' target={'_blank'} >
-                    <p className='text-blue-500'>Center For Genomic Regulation Spain</p>
-                    </a>
-
-                    <a href='https://imm.medicina.ulisboa.pt/training/lisbonbiomed/public_html/en/about-phd-program' target={'_blank'} >
-                    <p className='text-blue-500'>IMM Lisbon</p>
-                    </a>
-
-
-                </div>
-
-                <div id='Asia' className='flex flex-col px-4'>
-                    <h2 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>
-                        Asia
-                    </h2>
-
-
-                    <a href='https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa' target={'_blank'} >
-                    <p className='text-blue-500'>SINGA Awards Singapore</p>
-                    </a>
-
-                    <a href='https://www.duke-nus.edu.sg/education/our-programmes/phd/ibm-phd' target={'_blank'} >
-                    <p className='text-blue-500'>DUKE-NUS Medical School Singapore</p>
-                    </a>
-
-                    <a href='https://zje.intl.zju.edu.cn/en/admission/entry-requirements-0' target={'_blank'} >
-                    <p className='text-blue-500'>Dual PhD In Integrative Biomedical Science Zje China</p>
-                    </a>
-
-                    <h2 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>Note</h2>
-
-                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
-                        Having an excellent MSc is crucial as these positions are extremely competitive.
-                    </p>
-
-                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
-                        This list is not exhaustive, so please do your own search if you do not find any of these programs fitting.
-                    </p>
-
-                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
-                        North American, Australian and New Zealand institutions have not been included as the application and selection 
-                        process is somewhat different and will be covered in a later version of this list.
-                    </p>
-
-                   
-                </div>
-
-
-
-
-
-
-                <div className='flex flex-col px-4'>
-
-                    <h2 className='text-[18px] md:text-[20px] text-[#008024] font-bold  pt-8 pb-3'>Fully Funded International Master's Scholarships</h2>
-
-                    <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left py-3'>
-                        We have put together a list of fully funded MSc scholarships which support students in Life sciences and accept applications 
-                        from Nigerian citizens. It is important to note that awarding institutions can change the application timelines 
-                        for their scholarships, especially with the impact of COVID-19. Therefore, we advice interested candidates to frequently visit the website 
-                        of each scholarship of interest for updated announcements regarding application deadlines.
-                    </p>
-
-                    <a href='https://mastercardfdn.org/all/scholars/becoming-a-scholar/apply-to-the-scholars-program/' target={'_blank'} >
-                    <p className='text-blue-500'>MasterCard Scholarship</p>
-                    </a>
-
-
-                    <div className='flex flex-col'>
-                        <h3 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>
-                            Europe
-                        </h3>
-
-                        <a href='https://cscuk.dfid.gov.uk/apply/uk-universities/shared-scholarships/' target={'_blank'} >
-                        <p className='text-blue-500'>Commonwealth Shared Scholarship</p>
-                        </a>
-
-                        <a href='https://eacea.ec.europa.eu/erasmus-plus/emjmd-catalogue_en' target={'_blank'} >
-                        <p className='text-blue-500'>Erasmus Mundus</p>
-                        </a>
-
-                        <a href='https://www.chevening.org/scholarships/application-timeline/' target={'_blank'} >
-                        <p className='text-blue-500'>Chevening Scholarship</p>
-                        </a>
-
-                        <a href='https://gsse.ku.edu.tr/en/admissions/financial-aid-packages/' target={'_blank'} >
-                        <p className='text-blue-500'>Koc University Turkey MSc and PhD Scholarship</p>
-                        </a>
-
-                        <a href='https://eurireland.ie/2020/02/10/government-of-ireland-international-education-scholarships-2020/' target={'_blank'} >
-                        <p className='text-blue-500'>Government Of Ireland International Education Scholarship</p>
-                        </a>
-
-                        <a href='https://www.gatescambridge.org/' target={'_blank'} >
-                        <p className='text-blue-500'>Gates Cambridge Scholarships</p>
-                        </a>
-
-                        <a href='https://www.ox.ac.uk/clarendon/information-for-applicants' target={'_blank'} >
-                        <p className='text-blue-500'>Clarendon Fund Scholarships For International Students At University Of Oxford </p>
-                        </a>
-
-                        <a href='https://www.ox.ac.uk/admissions/graduates/fees-and-funding/fees-funding-and-scholarship-search/scholarships-a-z-listing?wssl=1#sbdca' target={'_blank'} >
-                        <p className='text-blue-500'>Standard Bank Africa Chairman's Scholarship At Oxford University</p>
-                        </a>
-
-                        <a href='https://www.westminster.ac.uk/study/fees-and-funding/scholarships/westminster-international-postgraduate-full-scholarship' target={'_blank'} >
-                        <p className='text-blue-500'>Westminster International Postgraduate Full Scholarship</p>
-                        </a>
-
-                        <a href='https://masters-scholarships.leeds.ac.uk/dir/scholarships?query=&categoryID=-1&searchDirCategoryID=10062' target={'_blank'} >
-                        <p className='text-blue-500'>Tetley And Lupton Masters Scholarship At The University Of Leeds</p>
-                        </a>
-
-                        <a href='https://www.maastrichtuniversity.nl/support/your-studies-begin/coming-maastricht-university-abroad/scholarships/maastricht-university' target={'_blank'} >
-                        <p className='text-blue-500'>Maastricht University Holland-High Potential Scholarships </p>
-                        </a>
-
-                        <a href='https://www.tudelft.nl/en/education/practical-matters/scholarships/justus-louise-van-effen-excellence-scholarships/' target={'_blank'} >
-                        <p className='text-blue-500'>Justus & Louise Van Effen Excellence Scholarships At Delft University Netherlands</p>
-                        </a>
-
-                        <a href='https://www.rug.nl/education/scholarships/eric-bleumink-fund' target={'_blank'} >
-                        <p className='text-blue-500'>Eric Bleumink Scholarships At The University Of Groningen For Master's</p>
-                        </a>
-
-                        <a href='https://gss.uva.nl/scholarships/amsterdam-excellence-scholarship/amsterdam-excellence-scholarship.html#Requirements' target={'_blank'} >
-                        <p className='text-blue-500'>Amsterdam Excellence Scholarships (AES) For Master's</p>
-                        </a>
-
-                        <a href='https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html' target={'_blank'} >
-                        <p className='text-blue-500'>Excellence Scholarship & Opportunity Programme / ETH-D Scholarship At ETH Zurich (For Master's)</p>
-                        </a>
-
-
-                    </div>
-
-
-
-                    <div className='flex flex-col'>
-                        <h3 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>
-                            Australia
-                        </h3>
-
-                        <a href='https://scholarships.adelaide.edu.au/Scholarships/postgraduate-research/all-faculties/adelaide-scholarships-international' target={'_blank'} >
-                        <p className='text-blue-500'>Adelaide Scholarships International (ASI)</p>
-                        </a>
-
-
-                        <a href='https://www.sydney.edu.au/scholarships/e/university-sydney-international-scholarship.html' target={'_blank'} >
-                        <p className='text-blue-500'>University Of Sydney International Strategic Scholarship</p>
-                        </a>
-
-                    </div>
-
-
-
-
-
-                    <div className='flex flex-col mb-8'>
-                        <h3 className='text-[18px] md:text-[20px] font-bold  pt-8 pb-3'>
-                            Asia
-                        </h3>
-
-                        <a href='https://www.ng.emb-japan.go.jp/itpr_en/edu.html' target={'_blank'} >
-                        <p className='text-blue-500'>Japan MEXT Scholarship</p>
-                        </a>
-
-
-                        <a href='https://isa.ustc.edu.cn/xs/list.asp?menu1=99&menu2=02&degree=2' target={'_blank'} >
-                        <p className='text-blue-500'>University Of Science And Technology Chinese Government Scholarships For MSc & PhD</p>
-                        </a>
-
-                        <a href='https://iczu.zju.edu.cn/english/redir.php?catalog_id=22232' target={'_blank'} >
-                        <p className='text-blue-500'>Zheijiang University Chinese Government Scholarship For MSc & PhD</p>
-                        </a>
-
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-
-                </div> */}
-
-        <Footer/>
-
     </div>
+    
+        
+    </div>
+
+    <Footer/>
+  </div>
   )
 }
 
-export default Opportunities
+export default Blogone

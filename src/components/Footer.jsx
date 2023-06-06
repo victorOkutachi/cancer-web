@@ -26,7 +26,7 @@ const Footer = () => {
               <li>Terms</li>
               <li>Privacy Policy</li>
             </ul>
-            <span className='flex items-center text-[8px] md:text-xs font-medium mb-2'><AiOutlineCopyright/>2022 by Control Cancer Initiative Nigeria (CAC/IT/NO 147869).</span>
+            <span className='flex items-center text-[8px] md:text-xs font-medium mb-2'><AiOutlineCopyright/>2023 by Control Cancer Initiative Nigeria (CAC/IT/NO 147869).</span>
         </div>
     </div>
   )

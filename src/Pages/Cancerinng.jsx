@@ -18,7 +18,7 @@ const Cancerinng = () => {
                 <div style={{
             backgroundImage: `url(${'images/cancerinng.jpg'})`
             }}
-            className='w-full h-full bg-no-repeat bg-cover'
+            className='w-full h-full bg-no-repeat bg-left bg-cover'
             >
                 <div className='bg-overlay3-rgba w-full h-[550px] flex flex-col text-center items-center justify-center text-white'>
                 <h1 className='text-3xl py-2 md:text-5xl font-bold text-white text-center'>CONTROL CANCER INITIATIVE NIGERIA</h1>
