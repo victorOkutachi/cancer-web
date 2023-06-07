@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Aos from 'aos'
+import { Link } from 'react-router-dom'
 
 const Mentorship = () => {
 
@@ -32,8 +33,8 @@ const Mentorship = () => {
             <p className='md:text-[16px] md:text-left text-center md:max-w-[580px] px-4 py-3'>Join our #payitforward movement</p>
             <div className='flex flex-col md:relative md:flex-row'>
 
-            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 py-2 mt-4 md:mx-4 mx-auto flex items-center' data-aos='fade-right'>Register to be a mentor</button>
-            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 md:absolute md:right-4 py-2 mt-6 mx-auto flex items-center' data-aos='fade-left'>Register to be a mentee</button>
+            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 py-2 mt-4 md:mx-4 mx-auto flex items-center' data-aos='fade-right'><Link to='/contact'>Register to be a mentor</Link></button>
+            <button className='text-white font-bold hover:text-white border-[2px] border-[#008024] bg-[#008024] rounded-full  hover:border-[#008024] px-6 md:absolute md:right-4 py-2 mt-6 mx-auto flex items-center' data-aos='fade-left'><Link to='/contact'>Register to be a mentee</Link></button>
             </div>
            
         </div>
@@ -43,7 +44,7 @@ const Mentorship = () => {
             <p className='md:text-[16px] md:max-w-[900px] lg:max-w-[1200px] md:text-left text-center px-5 py-3'>Send us an email stating as clearly as possible your needs and a mentor will respond to your request. 
                We ask that you send your request well ahead in time so that we can provide a thorough review.
             </p>
-            <button className='text-[#008024] mx-auto text-[14px] font-bold rounded-full hover:text-[#008024] border-[2px] border-[#008024] bg-white  py-[6px] w-[160px] mb-4 flex items-center justify-center md:mx-4'>Send Email</button>
+            <button className='text-[#008024] mx-auto text-[14px] font-bold rounded-full hover:text-[#008024] border-[2px] border-[#008024] bg-white  py-[6px] w-[160px] mb-4 flex items-center justify-center md:mx-4'><Link to='/contact'>Send Email</Link></button>
         </div>
 
 

@@ -43,7 +43,7 @@ const Mission = () => {
               least 20% in the next decade.
               </p>
             </div>
-
+              
             <h1 className='text-[24px] font-bold  text-[#008024] mx-2 pt-8' data-aos='fade-up'>Diagnosing Cancer In Nigeria</h1>
             <div id='Diagnosing cancer in nigeria' className='flex flex-col md:flex-row' data-aos='fade-up'>
               <div className='flex flex-col'>

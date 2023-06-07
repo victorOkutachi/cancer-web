@@ -15,7 +15,7 @@ const Body = () => {
 
       <div className='flex flex-col items-center' data-aos='fade-up'>
         <p className='text-[16px] font-medium text-center py-2 lg:mt-4'>
-          With over 100,000 new cancer cases and over 70,000 deaths reported in 2018 by Globacan, cancer has 
+          With over 100,000 new cancer cases and over 70,000 deaths reported in 2018 by Globocan, cancer has 
           emerged as a major public health emergency in Nigeria
         </p>
       </div>
