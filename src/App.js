@@ -11,12 +11,18 @@ import Mentorship from "./Pages/Mentorship";
 import Opportunities from "./Pages/Opportunities";
 import Blogone from "./Pages/Blogone";
 import Blogtwo from "./Pages/Blogtwo";
+import ScrollToTop from "./components/ScrollToTop";
+
+
+
 
 
 function App() {
   return (
     <HashRouter>
+
     <div className="">
+      <ScrollToTop/>
      <Routes> 
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<About/>}/>

@@ -36,11 +36,11 @@ const Mission = () => {
 
             <div id='awareness and cancer prevention' data-aos='fade-up'>
               <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
-              <p className='md:text-[16px] pt-3 md:max-w-[1200px] pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
+              <p className='md:text-[16px] pt-3 md:max-w-[1200px] pb-4'> Cancer prevention is indeed Nigeria best chance at defeating cancer,
               we are invested in the creation, coordination and dissemination of evidence based prevention campaign 
               materials that will enlighten Nigerians on various cancer risk factors and ways to minimize and/or eliminate
-              these risks, with this strategy, we hope to significantly reduce the predicted new cancer cases in Nigeria by at
-              least 20% in the next decade.
+              these risks, through local partnerships with stakeholders and communities around Nigeria, we are achieving our cancer 
+              prevention and advocacy agenda.
               </p>
             </div>
               

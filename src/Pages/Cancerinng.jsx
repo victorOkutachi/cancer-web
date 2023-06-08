@@ -98,22 +98,22 @@ const Cancerinng = () => {
 
             <Metricfour/>
 
-            <p className='md:text-[16px] text-center md:text-left px-5 py-3'>
+            <p className='md:text-[16px] text-center px-5 py-3'>
                     Below is a list of the eight (8) cancer treatment centres with radiotherapy capacity
             </p>
 
           
-            <ol className='list-decimal pl-8'>
-                <li>Lagos University Teaching Hospital, Lagos.</li>
-                <li>University of Benin Teaching Hospital, Benin.</li>
-                <li>Usman Danfodiyo Teaching Hospital, Sokoto.</li>
-                <li>Fedral University Teaching Hospital Gombe, Gombe.</li>
-                <li>National Hospital FCT, Abuja.</li>
-                <li>University College Hospital Ibadan, Ibadan.</li>
-                <li>University of Nigeria Teaching Hospital, Enugu.</li>
-                <li>Ahmadu Bello University Teaching Hospital, Kaduna.</li>
+            <ol className='list-none items-center px-4 ' data-aos='fade-up'>
+                <li className='text-center py-2 text-[#008024]'>Lagos University Teaching Hospital, Lagos.</li>
+                <li className='text-center py-2 text-[#008024]'>University of Benin Teaching Hospital, Benin.</li>
+                <li className='text-center py-2 text-[#008024]'>Usman Danfodiyo Teaching Hospital, Sokoto.</li>
+                <li className='text-center py-2 text-[#008024]'>Fedral University Teaching Hospital Gombe, Gombe.</li>
+                <li className='text-center py-2 text-[#008024]'>National Hospital FCT, Abuja.</li>
+                <li className='text-center py-2 text-[#008024]'>University College Hospital Ibadan, Ibadan.</li>
+                <li className='text-center py-2 text-[#008024]'>University of Nigeria Teaching Hospital, Enugu.</li>
+                <li className='text-center py-2 text-[#008024]'>Ahmadu Bello University Teaching Hospital, Kaduna.</li>
             </ol>
-            <p className='md:text-[16px] px-5 py-3'>
+            <p className='md:text-[16px] text-center px-3 py-3'>
                 It is important to note that the radiotherapy machines at some of these centres are either obsolete or 
                 not operational.
             </p>
@@ -158,7 +158,7 @@ const Cancerinng = () => {
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Databases And Data Management In Nigeria</h2>
             
             <p className='md:text-[16px] text-center px-5 pt-3 pb-5'>
-                Understanding the cancer burden in Nigeria's is limited by the incompleteness of cancer data. This is not unique 
+                Understanding the cancer burden in Nigeria is limited by the incompleteness of cancer data. This is not unique 
                 to Nigeria's as most African countries suffer the same plight. The lack of a complete epidemiological profile 
                 possibly contributes to the country's inability to adequately tackle many non-communicable diseases (NCDs) including cancer. 
                 Although the country has six population-based and 19 hospital-based cancer registries that the National System of Cancer 
