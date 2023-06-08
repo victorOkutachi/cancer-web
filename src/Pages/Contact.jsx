@@ -35,7 +35,7 @@ const Contact = () => {
 
           
         </div>
-        <textarea className='border-[1px] border-[#d3d3d3] p-2' name='message' placeholder='Subject'></textarea>
+        <input className='border-[1px] border-[#d3d3d3] p-2' type="text" name='subject' placeholder='Subject' />
         <input className=' p-2 mt-4 border-[1px] border-[#d3d3d3]' type="text" placeholder='Name' name='name'/>
         <input className='my-4 p-2 border-[1px] border-[#d3d3d3]' type="email" placeholder='Email' name='email'/>
         <textarea className='border-[1px] border-[#d3d3d3] p-2' name='message' rows="10" placeholder='Message'></textarea>
