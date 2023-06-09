@@ -36,7 +36,7 @@ const Mission = () => {
 
             <div id='awareness and cancer prevention' data-aos='fade-up'>
               <h1 className='text-[24px] font-bold text-center text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
-              <p className='md:text-[16px] px-6 pt-3 text-center pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
+              <p className='md:text-[16px] px-2 md:px-6 pt-3 text-center pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
               we are invested in the creation, coordination and dissemination of evidence based prevention campaign 
               materials that will enlighten Nigerians on various cancer risk factors and ways to minimize and/or eliminate
               these risks, through local partnerships with stakeholders and communities around Nigeria, we are achieving our cancer 
@@ -50,7 +50,7 @@ const Mission = () => {
               <p className='md:text-[16px] text-center px-2 py-3'>If diagnosed early, most solid tumors are in fact curable. Early cancer
               diagnosis is hampered by factors such as a lack of access to diagnostic facilities and financial difficulties.
               </p>
-              <p className='md:text-[16px] text-center px-4 py-3'>
+              <p className='md:text-[16px] text-center px-2 md:px-4 py-3'>
               At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
               in order to organize free and/or affordable cancer screening services. 
               </p>
@@ -63,7 +63,7 @@ const Mission = () => {
             <h1 className='text-[24px] font-bold text-center text-[#008024] pt-8' data-aos='fade-up'>Mentorship & Capacity Building</h1>
             <div className='flex flex-col mb-4' id='Mentorship Building' data-aos='fade-up'>
               
-              <p className='md:text-[16px] text-center px-8 py-4'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
+              <p className='md:text-[16px] text-center px-2 md:px-8 py-4'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
               to hope prevail against cancer. With our cancer mentoring scheme dubbed "#payitforward cancer
               Nigeria", we seek to pair up early and mid-stage cancer specialists with young highly motivated Nigerian talents
               willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost

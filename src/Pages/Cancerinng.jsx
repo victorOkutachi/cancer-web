@@ -44,14 +44,14 @@ const Cancerinng = () => {
             <Metricstwo/>
 
 
-            <p className='md:text-[16px] text-center px-8 pb-8 pt-4'>
+            <p className='md:text-[16px] text-center px-3 md:px-8 pb-8 pt-4'>
             The top 5 cancer types for women include; Breast, Cervical, Colerectal, Ovarian and Non-Hodgkin 
             lymphoma and the top 5 cancer types for men include; Prostrate, Colorectal, Non-Hodgkin lymphoma, 
             Liver and Stomach cancers. Available data indicate that around 464,000 cancer cases have been reported prior to the publication of the study.
             </p>
 
-            <img src='images/chart1.jpg' 
-            className='h-[180px] w-[360px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            <img src='cancer-web/images/chart1.jpg' 
+            className='h-[180px] w-[350px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
         </div>
 
@@ -66,9 +66,9 @@ const Cancerinng = () => {
             </p>
 
             <img src='images/chart2.jpg' 
-            className='h-[180px] w-[370px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[180px] w-[350px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
-            <p className='md:text-[16px] text-center px-14 py-3'>
+            <p className='md:text-[16px] text-center px-3 md:px-14 py-3'>
                 These numbers may be viewed as conservative since a significant number of cases are usually not reported for reasons such as;
                 cultural attitudes that undermines regular medical visits, poor access to quality diagnostic facilities as well as financial difficulties.
             </p>
@@ -124,7 +124,7 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/facility.jpg' 
-            className='h-[280px] w-[390px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[240px] w-[350px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
             </div>
 
         
@@ -134,7 +134,7 @@ const Cancerinng = () => {
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Treatment Cost And The Challenge Of Poverty</h2>
             <div className='flex flex-col '>
             <div className='flex flex-col'>
-            <p className='md:text-[16px] text-center px-14 py-3'>
+            <p className='md:text-[16px] text-center px-3 md:px-14 py-3'>
                 Nigeria's National Health Insurance Scheme (NHIS) does not cover cancer, neither do plans from several health 
                 management organizations. Usually, prescribed drugs determine the cost of cancer treatment in Nigeria, and the total cost is reliant on the number 
                 of drug cycles. Drugs are benchmarked at about;
@@ -143,10 +143,10 @@ const Cancerinng = () => {
             <Metricfive/>
 
             <p className='md:text-[16px] text-center px-5 py-3'>
-               Please note tht these prices are mere estimations and May not reflect the true current costs.
+               Please note that these prices are mere estimations and May not reflect the true current costs.
             </p>
 
-            <p className='md:text-[16px] text-center px-14 py-3'>
+            <p className='md:text-[16px] text-center px-4 md:px-14 py-3'>
                 The cost implication of cancer in Nigeria can not be afforded by the low-income earners, who, unfortunately are 
                 the most affected by cancer. For a country with a national minimum wage of 30,000 naira and a poverty rate of over 40% of the 
                 population, these numbers clearly points to a sad reality that cancer treatment is a luxury for the majority 
@@ -156,7 +156,7 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/poverty.jpg' 
-            className='h-[330px] w-[380px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[300px] w-[350px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
             </div>
 
@@ -165,7 +165,7 @@ const Cancerinng = () => {
         <div id='cancer databases and data management in nigeria'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Databases And Data Management In Nigeria</h2>
             
-            <p className='md:text-[16px] text-center px-14 pt-3 pb-5'>
+            <p className='md:text-[16px] text-center px-4 md:px-14 pt-3 pb-5'>
                 Understanding the cancer burden in Nigeria is limited by the incompleteness of cancer data. This is not unique 
                 to Nigeria's as most African countries suffer the same plight. The lack of a complete epidemiological profile 
                 possibly contributes to the country's inability to adequately tackle many non-communicable diseases (NCDs) including cancer. 
