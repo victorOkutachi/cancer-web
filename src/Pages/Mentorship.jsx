@@ -11,7 +11,7 @@ const Mentorship = () => {
   })
 
   return (
-    <div className='flex flex-col font-Merriweather'>
+    <div className='flex flex-col '>
         <Navbar/>
         <div style={{
                 backgroundImage: `url(${'images/mentor.jpg'})`

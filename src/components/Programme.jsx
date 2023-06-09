@@ -12,7 +12,7 @@ const Programme = () => {
     })
 
   return (
-    <div className='w-full flex flex-col font-Merriweather bg-[#c7f9cc] px-4 py-12 md:px-16 md:mt-6' data-aos="fade-right">
+    <div className='w-full flex flex-col  bg-[#c7f9cc] px-4 py-12 md:px-16 md:mt-6' data-aos="fade-right">
         <h1 className='text-3xl font-bold text-[#008024] pb-4'>Our Programmes</h1>
         <p className='text-[16px] max-w-[900px] pb-4'>
         Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 

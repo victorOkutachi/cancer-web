@@ -11,7 +11,7 @@ const Body = () => {
   })
   return (
 
-    <div className='w-full flex flex-col font-Merriweather px-4 pt-9 md:px-16 overflow-hidden'>
+    <div className='w-full flex flex-col md:pb-6 px-4 pt-9 md:px-16 overflow-hidden'>
 
       <div className='flex flex-col items-center' data-aos='fade-up'>
         <p className='text-[16px] font-medium text-center py-2 lg:mt-4'>
@@ -64,7 +64,7 @@ const Body = () => {
       </div>
 
       <div className='w-full flex flex-col items-center mx-auto md:flex-row mb-10 md:mb-0' data-aos="fade-up">
-        <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center mb-4 md:mb-0 '>
+        <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center mb-4  '>
           <div className='w-[100px] h-[100px] rounded-full '>
             <img className='w-full h-full' src='images/capabuilding.png'/>
           </div>

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Merriweather: ['Merriweather', 'serif'],
+        sans: ['Open-Sans', 'sans-serif'],
         
 
       },

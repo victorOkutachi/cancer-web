@@ -28,13 +28,20 @@ export const listItems = [
 
     {
         id: 5,
+        desc: "Mentorship Schemes",
+        path: '/mentorship'
+    },
+
+
+    {
+        id: 6,
         desc: "Blog",
         path: '/opportunities'
     },
 
 
     {
-        id: 6,
+        id: 7,
         desc: "Contact Us",
         path: '/contact'
     }
@@ -72,7 +79,18 @@ export const programs = [
         desc: "Breast cancer is the most prevalent cause of cancer related deaths in Nigeria. Fortunately, many women survive this. By focusing on these women's amazing and inspiring stories, we intend to create awareness whilst raising funds in support of other women currently fighting the disease. ",
     
     },
+
     
     
+    ]
+
+    export const buttonSent = [
+
+        {
+            id: 1,
+            text: "Sent",
+        
+        },
+
     ]
 

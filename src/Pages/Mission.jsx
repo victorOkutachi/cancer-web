@@ -10,7 +10,7 @@ const Mission = () => {
   })
 
   return (
-    <div className=' flex flex-col font-Merriweather'>
+    <div className=' flex flex-col '>
         <Navbar/> 
         <div style={{
             backgroundImage: `url(${'images/mission.jpg'})`
@@ -28,15 +28,15 @@ const Mission = () => {
         
         </div>
         <div className='w-full h-full flex flex-col pt-4 px-4'>
-            <h1 className='text-[32px] font-bold  text-[#008024] pt-8'>Our Mission & Vision</h1>
-            <p className='md:text-[16px] pt-3 md:max-w-[1200px]' data-aos='fade-up'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
+            <h1 className='text-[32px] text-center font-bold  text-[#008024] pt-8'>Our Mission & Vision</h1>
+            <p className='md:text-[16px] pt-3 text-center' data-aos='fade-up'>Recognizing the enormity of the challenges our society faces, CCIN is dedicated to making a lasting 
             impact through our campaigns and programs in the cancer domain.</p>
 
 
 
             <div id='awareness and cancer prevention' data-aos='fade-up'>
-              <h1 className='text-[24px] font-bold  text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
-              <p className='md:text-[16px] pt-3 md:max-w-[1200px] pb-4'> Cancer prevention is indeed Nigeria best chance at defeating cancer,
+              <h1 className='text-[24px] font-bold text-center text-[#008024] pt-8'>Awareness & Cancer Prevention</h1>
+              <p className='md:text-[16px] px-6 pt-3 text-center pb-4'> Cancer prevention is indeed Nigeria's best chance at defeating cancer,
               we are invested in the creation, coordination and dissemination of evidence based prevention campaign 
               materials that will enlighten Nigerians on various cancer risk factors and ways to minimize and/or eliminate
               these risks, through local partnerships with stakeholders and communities around Nigeria, we are achieving our cancer 
@@ -44,13 +44,13 @@ const Mission = () => {
               </p>
             </div>
               
-            <h1 className='text-[24px] font-bold  text-[#008024] mx-2 pt-8' data-aos='fade-up'>Diagnosing Cancer In Nigeria</h1>
-            <div id='Diagnosing cancer in nigeria' className='flex flex-col md:flex-row' data-aos='fade-up'>
+            <h1 className='text-[24px] font-bold text-center text-[#008024] mx-2 pt-8' data-aos='fade-up'>Diagnosing Cancer In Nigeria</h1>
+            <div id='Diagnosing cancer in nigeria' className='flex flex-col' data-aos='fade-up'>
               <div className='flex flex-col'>
-              <p className='md:text-[16px] md:max-w-[580px] px-2 py-3'>If diagnosed early, most solid tumors are in fact curable. Early cancer
+              <p className='md:text-[16px] text-center px-2 py-3'>If diagnosed early, most solid tumors are in fact curable. Early cancer
               diagnosis is hampered by factors such as a lack of access to diagnostic facilities and financial difficulties.
               </p>
-              <p className='md:text-[16px] md:max-w-[580px] px-2 py-3'>
+              <p className='md:text-[16px] text-center px-4 py-3'>
               At CCIN, we intend to support the early diagnosis of cancer in patients by collaborating with local and international organizations 
               in order to organize free and/or affordable cancer screening services. 
               </p>
@@ -60,16 +60,16 @@ const Mission = () => {
             </div>
 
 
-            <h1 className='text-[24px] font-bold  text-[#008024] pt-8' data-aos='fade-up'>Mentorship & Capacity Building</h1>
-            <div className='flex flex-col md:flex-row mb-4' id='Mentorship Building' data-aos='fade-up'>
+            <h1 className='text-[24px] font-bold text-center text-[#008024] pt-8' data-aos='fade-up'>Mentorship & Capacity Building</h1>
+            <div className='flex flex-col mb-4' id='Mentorship Building' data-aos='fade-up'>
               
-              <p className='md:text-[16px] md:max-w-[580px] py-3'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
+              <p className='md:text-[16px] text-center px-8 py-4'>Nigeria needs an army of cancer experts in both clinical and basic research capacity if we hope
               to hope prevail against cancer. With our cancer mentoring scheme dubbed "#payitforward cancer
               Nigeria", we seek to pair up early and mid-stage cancer specialists with young highly motivated Nigerian talents
               willing to pursue a career in oncology. Also, because funding for cancer research in Nigeria is almost
               non-existent, a major objective for us is to change this situation in the long term.
               </p>
-              <img className='h-[220px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-1  mx-auto' data-aos='fade-up' src='images/ment.jpg'/>
+              <img className='h-[220px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md mt-1 mb-6 mx-auto' data-aos='fade-up' src='images/ment.jpg'/>
             </div>
 
 

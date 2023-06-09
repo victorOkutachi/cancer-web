@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div id='container' className=' flex flex-col font-Merriweather items-center '>
+    <div id='container' className=' flex flex-col  items-center '>
         <Navbar/>
         <div id='Wrapper' className='w-full h-full flex flex-col '>
  

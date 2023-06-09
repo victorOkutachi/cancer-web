@@ -6,6 +6,8 @@ import Metricstwo from '../components/Metricstwo'
 import Metricthree from '../components/Metricthree'
 import Metricfour from '../components/Metricfour'
 import Metricfive from '../components/Metricfive'
+import { Link } from 'react-router-dom'
+
 
 const Cancerinng = () => {
 
@@ -15,7 +17,7 @@ const Cancerinng = () => {
 
 
   return (
-    <div className='flex flex-col font-Merriweather'>
+    <div className='flex flex-col '>
     <Navbar/>
     
         <div id='cancer incidence in nigeria'  className='flex flex-col '>
@@ -27,8 +29,9 @@ const Cancerinng = () => {
                 <div className='bg-overlay3-rgba w-full h-[550px] flex flex-col text-center items-center justify-center text-white'>
                 <h1 className='text-3xl py-2 md:text-5xl font-bold text-white text-center'>CONTROL CANCER INITIATIVE NIGERIA</h1>
                 <p className='text-lg px-2 md:text-2xl font-bold text-center'>Building Capacity, Defeating Cancer</p>
-                <button className='text-white font-bold hover:text-white border-[2px] border-white hover:bg-[#008024] hover:border-[#008024] px-6 py-2 mt-16 mx-auto flex items-center'>Get Involved</button>
+                <button className='text-white font-bold hover:text-white border-[2px] border-white hover:bg-[#008024] hover:border-[#008024] px-6 py-2 mt-16 mx-auto flex items-center'><Link to='/mentorship'>Get Involved</Link></button>
                 </div>
+                
         
         </div>
 
@@ -41,15 +44,14 @@ const Cancerinng = () => {
             <Metricstwo/>
 
 
-            <p className='md:text-[16px] text-center px-4 pb-8 pt-4'>
+            <p className='md:text-[16px] text-center px-8 pb-8 pt-4'>
             The top 5 cancer types for women include; Breast, Cervical, Colerectal, Ovarian and Non-Hodgkin 
             lymphoma and the top 5 cancer types for men include; Prostrate, Colorectal, Non-Hodgkin lymphoma, 
-            Liver and Stomach cancers. Available data indicate that around 464,000 cancer cases have been reported in the 
-            last four years.
+            Liver and Stomach cancers. Available data indicate that around 464,000 cancer cases have been reported prior to the publication of the study.
             </p>
 
             <img src='images/chart1.jpg' 
-            className='h-[180px] w-[340px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[180px] w-[360px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
         </div>
 
@@ -64,9 +66,9 @@ const Cancerinng = () => {
             </p>
 
             <img src='images/chart2.jpg' 
-            className='h-[180px] w-[340px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[180px] w-[370px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
-            <p className='md:text-[16px] text-center px-5 py-3'>
+            <p className='md:text-[16px] text-center px-14 py-3'>
                 These numbers may be viewed as conservative since a significant number of cases are usually not reported for reasons such as;
                 cultural attitudes that undermines regular medical visits, poor access to quality diagnostic facilities as well as financial difficulties.
             </p>
@@ -84,26 +86,24 @@ const Cancerinng = () => {
            
            <div className='flex flex-col'>
             <p className='md:text-[16px] text-center px-5 py-3'>
-            A resilent healthcare system is indispensable for Nigeria to succesfully manage her cancer burden. Recent studies show 
+            A resilent healthcare system is indispensable for Nigeria to succesfully manage her cancer burden. Here are some key figures on cancer infrastructure
+            and capacity gaps in Nigeria.
             </p>
             <Metricthree/>
 
-            <p className='md:text-[16px] text-center px-5 py-3'>
-              Her current capacity is indeed a far cry from expectations 
-            </p>
 
             <p className='md:text-[16px] text-center px-5 py-3'>
-                The number of radiation oncologists, medical physicists, surgeons, radiologists, nuclear medicine physicians and medical laboratory pathologists per 10,000 cancer patient.
+                The number of oncology professionals per 10,000 cancer patients.
             </p>
 
             <Metricfour/>
 
             <p className='md:text-[16px] text-center px-5 py-3'>
-                    Below is a list of the eight (8) cancer treatment centres with radiotherapy capacity
+                    Below is a list of the eight (8) government ran cancer treatment centres with radiotherapy capabilities:
             </p>
 
           
-            <ol className='list-none items-center px-4 ' data-aos='fade-up'>
+            <ol className='list-none items-center px- ' data-aos='fade-up'>
                 <li className='text-center py-2 text-[#008024]'>Lagos University Teaching Hospital, Lagos.</li>
                 <li className='text-center py-2 text-[#008024]'>University of Benin Teaching Hospital, Benin.</li>
                 <li className='text-center py-2 text-[#008024]'>Usman Danfodiyo Teaching Hospital, Sokoto.</li>
@@ -117,10 +117,14 @@ const Cancerinng = () => {
                 It is important to note that the radiotherapy machines at some of these centres are either obsolete or 
                 not operational.
             </p>
+
+            <p className='md:text-[16px] text-center px-3 py-3'>
+                In addition to the above listed centres, a number of private medical facilities offer oncology treatment in Nigeria.
+            </p>
             </div>
 
             <img src='images/facility.jpg' 
-            className='h-[260px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[280px] w-[390px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
             </div>
 
         
@@ -130,7 +134,7 @@ const Cancerinng = () => {
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Treatment Cost And The Challenge Of Poverty</h2>
             <div className='flex flex-col '>
             <div className='flex flex-col'>
-            <p className='md:text-[16px] text-center px-5 py-3'>
+            <p className='md:text-[16px] text-center px-14 py-3'>
                 Nigeria's National Health Insurance Scheme (NHIS) does not cover cancer, neither do plans from several health 
                 management organizations. Usually, prescribed drugs determine the cost of cancer treatment in Nigeria, and the total cost is reliant on the number 
                 of drug cycles. Drugs are benchmarked at about;
@@ -139,6 +143,10 @@ const Cancerinng = () => {
             <Metricfive/>
 
             <p className='md:text-[16px] text-center px-5 py-3'>
+               Please note tht these prices are mere estimations and May not reflect the true current costs.
+            </p>
+
+            <p className='md:text-[16px] text-center px-14 py-3'>
                 The cost implication of cancer in Nigeria can not be afforded by the low-income earners, who, unfortunately are 
                 the most affected by cancer. For a country with a national minimum wage of 30,000 naira and a poverty rate of over 40% of the 
                 population, these numbers clearly points to a sad reality that cancer treatment is a luxury for the majority 
@@ -148,7 +156,7 @@ const Cancerinng = () => {
             </div>
 
             <img src='images/poverty.jpg' 
-            className='h-[300px] w-[340px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[330px] w-[380px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
             </div>
 
@@ -157,7 +165,7 @@ const Cancerinng = () => {
         <div id='cancer databases and data management in nigeria'  className='flex flex-col ' data-aos='fade-up'>
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Databases And Data Management In Nigeria</h2>
             
-            <p className='md:text-[16px] text-center px-5 pt-3 pb-5'>
+            <p className='md:text-[16px] text-center px-14 pt-3 pb-5'>
                 Understanding the cancer burden in Nigeria is limited by the incompleteness of cancer data. This is not unique 
                 to Nigeria's as most African countries suffer the same plight. The lack of a complete epidemiological profile 
                 possibly contributes to the country's inability to adequately tackle many non-communicable diseases (NCDs) including cancer. 

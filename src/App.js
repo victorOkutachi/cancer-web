@@ -12,6 +12,7 @@ import Opportunities from "./Pages/Opportunities";
 import Blogone from "./Pages/Blogone";
 import Blogtwo from "./Pages/Blogtwo";
 import ScrollToTop from "./components/ScrollToTop";
+import Donate from "./Pages/Donate";
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path='/opportunities' element={<Opportunities/>}/>
         <Route path='/blogone' element={<Blogone/>}/>
         <Route path='/blogtwo' element={<Blogtwo/>}/>
+        <Route path='/donate' element={<Donate/>}/>
 
         </Routes>
     </div>
