@@ -43,7 +43,7 @@ const Body = () => {
       <div className='w-full flex flex-col items-center mx-auto md:flex-row mb-14 md:mx-4 md:mb-0' data-aos="fade-up">
         <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center mb-1 md:mb-0 lg:ml-6 '>
           <div className='w-[100px] h-[100px] rounded-full '>
-            <img className='w-full h-full' src='cancer-web/images/micnew.png'/>
+            <img className='w-full h-full' src='images/micnew.png'/>
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Awareness & Cancer Prevention</h1>
           <p className='text-[16px] font-medium text-center'>We are invested in the creation and dissemination of materials to enlighten Nigerians on cancer risks and prevention</p>
@@ -58,7 +58,7 @@ const Body = () => {
       <div className='w-full flex flex-col items-center mx-auto md:flex-row md:mx-4 mb-12 md:mb-0' data-aos="fade-up">
         <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center my-1 md:my-0 '>
           <div className='w-[100px] h-[100px] rounded-full bg-gray-300'>
-            <img className='w-full h-full' src='cancer-web/images/testtube.png'/>
+            <img className='w-full h-full' src='images/testtube.png'/>
           </div>
           <h1 className='py-4 font-bold text-2xl text-center'>Facilitate Cancer Diagnosis In Nigeria</h1>
           <p className='text-[16px] font-medium text-center'>We are supporting Nigerians to gain access to the best cancer diagnosis and treatment</p>
@@ -69,7 +69,7 @@ const Body = () => {
       <div className='w-full flex flex-col items-center mx-auto md:flex-row mb-14 md:mx-4 md:mb-0' data-aos="fade-up">
         <div className='w-[300px] lg:w-[250px] h-[300px] flex flex-col items-center  '>
           <div className='w-[100px] h-[100px] rounded-full '>
-            <img className='w-full h-full' src='cancer-web/images/capabuilding.png'/>
+            <img className='w-full h-full' src='images/capabuilding.png'/>
           </div>
           <h1 className='py-3 font-bold text-2xl text-center'>Mentorship & Capacity Building</h1>
           <p className='text-[16px] font-medium text-center'>Mentoring the Oncology talents in Nigeria and creating an avenue to support people with cancer</p>
