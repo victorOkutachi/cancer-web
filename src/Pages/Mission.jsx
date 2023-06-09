@@ -10,7 +10,7 @@ const Mission = () => {
   })
 
   return (
-    <div className=' flex flex-col '>
+    <div className=' flex flex-col font-Lato'>
         <Navbar/> 
         <div style={{
             backgroundImage: `url(${'images/mission.jpg'})`
@@ -19,10 +19,10 @@ const Mission = () => {
             >
                 <div className='bg-overlay-rgba w-full h-[600px] flex flex-col text-white'>
                             <div className=' flex-col mt-20 lg:flex-row mx-4 justify-center'>
-                              <h1 className='text-[40px] md:text-[75px] font-bold  text-green-400 md:max-w-[700px]'>Building Capacity,</h1>
-                              <h1 className='text-[40px] md:text-[75px] font-bold  text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
+                              <h1 className='text-[40px] md:text-[75px] font-bold md:mx-6 text-green-400 md:max-w-[700px]'>Building Capacity,</h1>
+                              <h1 className='text-[40px] md:text-[75px] font-bold md:mx-6 text-pink-400 md:max-w-[700px]'>Defeating Cancer</h1>
                             </div> 
-                            <p className='md:text-[18px] font-bold mx-4 mt-10 text-green-300 lg:text-[24px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
+                            <p className='md:text-[18px] font-bold mx-4 md:mx-8 mt-10 text-green-300 lg:text-[24px]'>We are driven by a single goal; Do our part to curtail cancer in Nigeria.</p>  
                 </div>
                  
         

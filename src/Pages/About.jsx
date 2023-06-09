@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div id='container' className=' flex flex-col  items-center '>
+    <div id='container' className=' flex flex-col font-Lato items-center '>
         <Navbar/>
         <div id='Wrapper' className='w-full h-full flex flex-col '>
  
@@ -19,7 +19,7 @@ const About = () => {
                 
             </div>
 
-            <div id='About Us' className='flex flex-col px-3'>
+            <div id='About Us' className='flex flex-col font-Lato px-3'>
                 <h1 className='text-[24px] font-bold text-center md:text-left md:mx-4 text-[#008024] pt-8'>ABOUT</h1>
                 <p className='md:text-[16px] text-center md:text-left pb-6 md:max-w-[1200px] mx-4'>
                     Founded in 2020, our team consists of young highly talented and patriotic Nigerian oncology 

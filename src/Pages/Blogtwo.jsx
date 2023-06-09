@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const Blogtwo = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col font-Lato'>
         <Navbar/>
         
         <div style={{

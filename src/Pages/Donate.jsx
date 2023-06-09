@@ -4,10 +4,10 @@ import Navbar from '../components/Navbar'
 
 const Donate = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col font-Lato'>
         <Navbar/>
         <h1 className='py-5 px-4 font-bold text-[#008024] text-3xl text-center'>Your donations help funds patient education and support programs, advocacy initiatives, and our research.</h1>
-        <p className='text-[16px] px-4 font-bold text-center'>Note: Our digital payment system is in the works, to donate to our course, please pay directly to the following bank details;</p>
+        <p className='text-[16px] px-4 font-bold text-center'>Note: Our digital payment system is in the works, to donate to our cause, please pay directly to the following bank details;</p>
 
         <div className='flex flex-col items-center'>
             <img className='h-[80px] w-[100px]' src='images/wema.png'/>

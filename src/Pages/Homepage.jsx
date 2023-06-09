@@ -9,7 +9,7 @@ import Programme from '../components/Programme'
 
 const Homepage = () => {
   return (
-    <div className='w-full h-full font-Merriweather flex flex-col items-center'>
+    <div className='w-full h-full font-Lato flex flex-col items-center'>
         <Navbar/>
         <HeroSection/>
         <Body/>

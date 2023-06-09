@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const Blogone = () => {
   return (
-    <div className='flex flex-col w-full h-full'>
+    <div className='flex flex-col font-Lato w-full h-full'>
         <Navbar/>
         <div className='flex flex-col'>
         <div style={{

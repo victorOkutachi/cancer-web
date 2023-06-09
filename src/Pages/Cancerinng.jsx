@@ -17,7 +17,7 @@ const Cancerinng = () => {
 
 
   return (
-    <div className='flex flex-col '>
+    <div className='flex flex-col  font-Lato'>
     <Navbar/>
     
         <div id='cancer incidence in nigeria'  className='flex flex-col '>
@@ -38,7 +38,7 @@ const Cancerinng = () => {
         <div className='flex flex-col '>
             <h2 className='px-4 text-center pt-6 pb-2 text-[28px] font-bold text-[#008024]'>Cancer Incidence In Nigeria</h2>
             <p className='md:text-[16px] text-center px-4 pb-8 pt-4'>
-                In 2018 a comprehensive study of cancer incidence in Nigeria placed;
+                A 2018 comprehensive study of cancer in Nigeria indicated that;
             </p>
 
             <Metricstwo/>
@@ -142,8 +142,8 @@ const Cancerinng = () => {
 
             <Metricfive/>
 
-            <p className='md:text-[16px] text-center px-5 py-3'>
-               Please note that these prices are mere estimations and May not reflect the true current costs.
+            <p className='text-[12px] md:text-[14px] text-green-500 text-center px-5 py-3'>
+               Please note that these prices are mere estimations and may not reflect the true current costs.
             </p>
 
             <p className='md:text-[16px] text-center px-4 md:px-14 py-3'>

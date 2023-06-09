@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Opportunities = () => {
   return (
-    <div className='flex flex-col  w-full h-screen'>
+    <div className='flex flex-col font-Lato w-full h-screen'>
         <Navbar/>
 
         <div style={{

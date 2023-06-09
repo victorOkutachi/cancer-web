@@ -12,7 +12,7 @@ const Programs = () => {
   })
 
   return (
-    <div className='flex flex-col '>
+    <div className='flex flex-col font-Lato'>
         <Navbar/>
         <div className='flex flex-col px-4'>
         <h1 className='text-[32px] py-4 text-center mb-2 font-bold mt-6 text-[#008024]'>Our Programmes</h1>
