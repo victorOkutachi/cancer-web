@@ -2,6 +2,7 @@ import React from 'react'
 import {AiOutlineCopyright} from 'react-icons/ai'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiLinkedinFill, RiInstagramFill, RiTwitterFill} from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -22,7 +23,7 @@ const Footer = () => {
                 
             </div>
             <ul className='items-center flex text-[8px] space-x-2 my-1'>
-              <li>Contact Us</li>
+              <li><Link to='/contact'>Contact Us</Link></li>
               <li>Terms</li>
               <li>Privacy Policy</li>
             </ul>
