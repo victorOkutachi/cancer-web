@@ -31,7 +31,7 @@ const Programs = () => {
             <h1 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>{item.title}</h1>
           <div className='flex flex-col items-center' >
             <p className='md:text-[16px] text-center px-3 md:px-14 py-3'>{item.desc}</p>
-            <img className='h-[300px] w-[360px] md:h-[380px] md:w-[500px] shadow-lg object-fill rounded-md my-3 md:mx-2 mx-auto'  src={item.img} key={item.id}/> 
+            <img className='h-[300px] w-[340px] md:h-[380px] md:w-[500px] shadow-lg object-fill rounded-md my-3 md:mx-2 mx-auto'  src={item.img} key={item.id}/> 
             
             
           </div>
