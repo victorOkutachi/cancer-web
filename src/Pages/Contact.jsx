@@ -20,11 +20,12 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset()
   };
 
 
   return (
-    <div id='container' className='flex flex-col'>
+    <div id='container' className='flex flex-col font-Lato'>
         <Navbar/>
     <div className='w-full h-2/5 flex flex-col items-center'>
       

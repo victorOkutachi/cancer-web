@@ -6,7 +6,7 @@ const Donate = () => {
   return (
     <div className='flex flex-col font-Lato'>
         <Navbar/>
-        <h1 className='py-5 px-4 font-bold text-[#008024] text-3xl text-center'>Your donations help funds patient education and support programs, advocacy initiatives, and our research.</h1>
+        <h1 className='py-5 px-4 font-bold text-[#008024] text-3xl text-center'>Your donations help fund patient education and support programs, advocacy initiatives, and our research.</h1>
         <p className='text-[16px] px-4 font-bold text-center'>Note: Our digital payment system is in the works, to donate to our cause, please pay directly to the following bank details;</p>
 
         <div className='flex flex-col items-center'>

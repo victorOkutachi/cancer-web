@@ -37,11 +37,12 @@ const Cancerinng = () => {
 
         <div className='flex flex-col '>
             <h2 className='px-4 text-center pt-6 pb-2 text-[28px] font-bold text-[#008024]'>Cancer Incidence In Nigeria</h2>
-            <p className='md:text-[16px] text-center px-4 pb-8 pt-4'>
-                A 2018 comprehensive study of cancer in Nigeria indicated that;
-            </p>
-
+           
             <Metricstwo/>
+
+            <p className='md:text-[16px] font-bold text-center px-4 pb-8 pt-4'>
+               Source: Globocan, 2018
+            </p>
 
 
             <p className='md:text-[16px] text-center px-3 md:px-8 pb-8 pt-4'>
@@ -51,7 +52,7 @@ const Cancerinng = () => {
             </p>
 
             <img src='images/chart1.jpg' 
-            className='h-[180px] w-[330px] md:h-[270px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[180px] w-[330px] md:w-[360px] md:h-[220px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
         </div>
 
@@ -66,7 +67,7 @@ const Cancerinng = () => {
             </p>
 
             <img src='images/chart2.jpg' 
-            className='h-[180px] w-[330px] md:h-[325px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
+            className='h-[180px] w-[330px] md:h-[220px] md:w-[370px] shadow-lg object-fill rounded-md my-4  mx-auto' data-aos='fade-up'/>
 
             <p className='md:text-[16px] text-center px-4 md:px-14 py-5'>
                 These numbers may be viewed as conservative since a significant number of cases are usually not reported for reasons such as;
