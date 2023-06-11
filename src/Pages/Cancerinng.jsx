@@ -21,19 +21,12 @@ const Cancerinng = () => {
     <Navbar/>
     
         <div id='cancer incidence in nigeria'  className='flex flex-col '>
-                <div style={{
-            backgroundImage: `url(${'images/cancerinng.jpg'})`
-            }}
-            className='w-full h-full bg-no-repeat bg-left bg-cover'
-            >
-                <div className='bg-overlay3-rgba w-full h-[550px] flex flex-col text-center items-center justify-center text-white'>
-                <h1 className='text-3xl py-2 md:text-5xl font-bold text-white text-center'>CONTROL CANCER INITIATIVE NIGERIA</h1>
-                <p className='text-lg px-2 md:text-2xl font-bold text-center'>Building Capacity, Defeating Cancer</p>
-                <button className='text-white font-bold hover:text-white border-[2px] border-white hover:bg-[#008024] hover:border-[#008024] px-6 py-2 mt-16 mx-auto flex items-center'><Link to='/mentorship'>Get Involved</Link></button>
-                </div>
-                
+            <div className='flex flex-col item-center'>
+            <img src='images/home.png' className='h-1/2 w-full'/>
+               
+            </div>    
         
-        </div>
+      
 
         <div className='flex flex-col '>
             <h2 className='px-4 text-center pt-6 pb-2 text-[28px] font-bold text-[#008024]'>Cancer Incidence In Nigeria</h2>
@@ -45,7 +38,7 @@ const Cancerinng = () => {
             </p>
 
 
-            <p className='md:text-[16px] text-center px-3 md:px-8 pb-8 pt-4'>
+            <p className='md:text-[16px] text-center px-3 md:px-14 pb-8 pt-4'>
             The top 5 cancer types for women include; Breast, Cervical, Colerectal, Ovarian and Non-Hodgkin 
             lymphoma and the top 5 cancer types for men include; Prostrate, Colorectal, Non-Hodgkin lymphoma, 
             Liver and Stomach cancers. Available data indicate that around 464,000 cancer cases have been reported prior to the publication of the study.
@@ -86,7 +79,7 @@ const Cancerinng = () => {
             <h2 className='px-4 py-4 text-[28px] text-center font-bold text-[#008024]'>Cancer Facilities And Expertise In Nigeria</h2>
            
            <div className='flex flex-col'>
-            <p className='md:text-[16px] text-center px-5 py-3'>
+            <p className='md:text-[16px] text-center px-5 md:px-14 py-3'>
             A resilent healthcare system is indispensable for Nigeria to succesfully manage her cancer burden. Here are some key figures on cancer infrastructure
             and capacity gaps in Nigeria.
             </p>

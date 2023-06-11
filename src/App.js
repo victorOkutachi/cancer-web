@@ -13,6 +13,7 @@ import Blogone from "./Pages/Blogone";
 import Blogtwo from "./Pages/Blogtwo";
 import ScrollToTop from "./components/ScrollToTop";
 import Donate from "./Pages/Donate";
+import Privacy from "./Pages/Privacy";
 
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path='/blogone' element={<Blogone/>}/>
         <Route path='/blogtwo' element={<Blogtwo/>}/>
         <Route path='/donate' element={<Donate/>}/>
+        <Route path='/privacy' element={<Privacy/>}/>
 
         </Routes>
     </div>

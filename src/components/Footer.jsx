@@ -22,10 +22,9 @@ const Footer = () => {
               </a> 
                 
             </div>
-            <ul className='items-center flex text-[8px] space-x-2 my-1'>
+            <ul className='items-center flex text-[10px] space-x-2 my-1'>
               <li><Link to='/contact'>Contact Us</Link></li>
-              <li>Terms</li>
-              <li>Privacy Policy</li>
+              <li><Link to='/privacy'>Terms & Privacy Policy</Link></li>
             </ul>
             <span className='flex items-center text-[8px] md:text-xs font-medium mb-2'><AiOutlineCopyright/>2023 by Control Cancer Initiative Nigeria (CAC/IT/NO 147869).</span>
         </div>
