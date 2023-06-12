@@ -9,7 +9,7 @@ const Privacy = () => {
         <h1 className='text-[32px] py-4 px-4 mb-2 font-bold mt-6 text-[#008024]'>Terms and Conditions</h1>
 
         <p className='md:text-[16px] px-4  pb-2'>Terms and Conditions ("Terms")</p>
-        <p className='md:text-[12px]  px-4 pb-2'>Last updated: 06/06/2020</p>
+        <p className='md:text-[12px]  px-4 pb-2'>Last updated: 11/06/2023</p>
 
 
         <p className='md:text-[16px] px-4  pb-2'>
@@ -135,7 +135,7 @@ const Privacy = () => {
 
 
         <h1 className='text-[32px] py-4 px-4 mb-2 font-bold mt-6 text-[#008024]'>Privacy Policy</h1>
-        <p className='md:text-[12px]  px-4 pb-2'>Last updated: June 06, 2020</p>
+        <p className='md:text-[12px]  px-4 pb-2'>Last updated: June 11, 2023</p>
 
         <div className='flex flex-col'>
             <h2 className='text-[22px] px-4 font-bold pb-2'>Introduction</h2>
