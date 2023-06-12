@@ -568,7 +568,7 @@ const Privacy = () => {
         </p>
 
         <p className='md:text-[16px] px-4  pb-2'>
-        Last updated: 06/06/2020
+        Last updated: 11/06/2023
 
         </p>
 
